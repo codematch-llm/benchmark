@@ -1,0 +1,5 @@
+Metric Category,Number of Instances,Total Passed,Total Failed,Average similarity_score,Median similarity_score,Accuracy,Precision,Recall,F1-Score,True Positives (TP),True Negatives (TN),False Positives (FP),False Negatives (FN)
+Overall,4694,1227,3467,0.9623107241116319,0.96392128,0.2613975287601193,0.2613975287601193,1.0,0.41445701739571017,1227,0,3467,0
+By Clone Type - 3,1223,1223,0,0.9663883447914964,0.96886253,1.0,1.0,1.0,1.0,1223,0,0,0
+By Clone Type - 2,4,4,0,0.968122175,0.96565777,1.0,1.0,1.0,1.0,4,0,0,0
+By Clone Type - Non-Clone,3467,0,3467,0.960865620017306,0.96224284,0.0,0.0,0.0,0.0,0,0,3467,0

@@ -1,0 +1,68 @@
+clone_code_id,base_code_id,task,clone_language,similarity_score,domain,subdomain,clone_type,clone_sub_type
+z4tt_1_1,z4tt,100 doors,python,0.9999999,Game Development,Puzzles,T1,Identical Clone
+z4tt_1_2,z4tt,100 doors,python,0.99402833,Game Development,Puzzles,T1,Different Whitespaces
+z4tt_1_3,z4tt,100 doors,python,0.9986343,Game Development,Puzzles,T1,Different Comments
+z4tt_1_4,z4tt,100 doors,python,0.9992957,Game Development,Puzzles,T1,Different Formatting
+z4tt_2_1,z4tt,100 doors,python,0.99656343,Game Development,Puzzles,T2,Different Variable Names
+z4tt_2_2,z4tt,100 doors,python,0.9985461,Game Development,Puzzles,T2,Different Data Types
+z4tt_2_3,z4tt,100 doors,python,0.9986019,Game Development,Puzzles,T2,Different Function Names
+z4tt_3_1,z4tt,100 doors,python,0.9977388,Game Development,Puzzles,T3,Added Statements
+z4tt_3_2,z4tt,100 doors,python,0.99937063,Game Development,Puzzles,T3,Removed Statements
+z4tt_3_3,z4tt,100 doors,python,0.9989482,Game Development,Puzzles,T3,Reordered Statements
+z4tt_3_4,z4tt,100 doors,python,0.9954015,Game Development,Puzzles,T3,Control Flow Modifications
+z4tt_4_1,z4tt,100 doors,python,0.99789906,Game Development,Puzzles,T4,Same Language
+z4tt_4_2,z4tt,100 doors,go,0.94561076,Game Development,Puzzles,T4,Different Language
+z4tt_4_2,z4tt,100 doors,java,0.94147605,Game Development,Puzzles,T4,Different Language
+z4tt_4_2,z4tt,100 doors,javascript,0.9798317,Game Development,Puzzles,T4,Different Language
+z4tt_4_2,z4tt,100 doors,php,0.97955364,Game Development,Puzzles,T4,Different Language
+z4tt_4_2,z4tt,100 doors,ruby,0.9837183,Game Development,Puzzles,T4,Different Language
+vu129_1_1,vu129,100 prisoners,python,1.0,Game Development,Puzzles,T1,Identical Clone
+vu129_1_2,vu129,100 prisoners,python,0.9688635,Game Development,Puzzles,T1,Different Whitespaces
+vu129_1_3,vu129,100 prisoners,python,0.9994661,Game Development,Puzzles,T1,Different Comments
+vu129_1_4,vu129,100 prisoners,python,0.9995636,Game Development,Puzzles,T1,Different Formatting
+vu129_2_1,vu129,100 prisoners,python,0.999232,Game Development,Puzzles,T2,Different Variable Names
+vu129_2_2,vu129,100 prisoners,python,0.9980772,Game Development,Puzzles,T2,Different Data Types
+vu129_2_3,vu129,100 prisoners,python,0.9999887,Game Development,Puzzles,T2,Different Function Names
+vu129_3_1,vu129,100 prisoners,python,0.9997015,Game Development,Puzzles,T3,Added Statements
+vu129_3_2,vu129,100 prisoners,python,0.9928801,Game Development,Puzzles,T3,Removed Statements
+vu129_3_3,vu129,100 prisoners,python,0.99973047,Game Development,Puzzles,T3,Reordered Statements
+vu129_3_4,vu129,100 prisoners,python,0.99898124,Game Development,Puzzles,T3,Control Flow Modifications
+vu129_4_1,vu129,100 prisoners,python,0.97935486,Game Development,Puzzles,T4,Same Language
+vu129_4_2,vu129,100 prisoners,go,0.89827013,Game Development,Puzzles,T4,Different Language
+vu129_4_2,vu129,100 prisoners,java,0.98181593,Game Development,Puzzles,T4,Different Language
+vu129_4_2,vu129,100 prisoners,javascript,0.87611127,Game Development,Puzzles,T4,Different Language
+vu129_4_2,vu129,100 prisoners,ruby,0.93932503,Game Development,Puzzles,T4,Different Language
+clr9q_1_1,clr9q,15 puzzle game,python,1.0,Game Development,Puzzles,T1,Identical Clone
+clr9q_1_2,clr9q,15 puzzle game,python,0.98678213,Game Development,Puzzles,T1,Different Whitespaces
+clr9q_1_3,clr9q,15 puzzle game,python,0.9996972,Game Development,Puzzles,T1,Different Comments
+clr9q_1_4,clr9q,15 puzzle game,python,0.9998832,Game Development,Puzzles,T1,Different Formatting
+clr9q_2_1,clr9q,15 puzzle game,python,0.9993845,Game Development,Puzzles,T2,Different Variable Names
+clr9q_2_2,clr9q,15 puzzle game,python,0.9997375,Game Development,Puzzles,T2,Different Data Types
+clr9q_2_3,clr9q,15 puzzle game,python,0.9996934,Game Development,Puzzles,T2,Different Function Names
+clr9q_3_1,clr9q,15 puzzle game,python,0.99970347,Game Development,Puzzles,T3,Added Statements
+clr9q_3_2,clr9q,15 puzzle game,python,0.99890006,Game Development,Puzzles,T3,Removed Statements
+clr9q_3_3,clr9q,15 puzzle game,python,0.9901962,Game Development,Puzzles,T3,Reordered Statements
+clr9q_3_4,clr9q,15 puzzle game,python,0.9953705,Game Development,Puzzles,T3,Control Flow Modifications
+clr9q_4_1,clr9q,15 puzzle game,python,0.989104,Game Development,Puzzles,T4,Same Language
+clr9q_4_2,clr9q,15 puzzle game,go,0.93409806,Game Development,Puzzles,T4,Different Language
+clr9q_4_2,clr9q,15 puzzle game,java,0.97947675,Game Development,Puzzles,T4,Different Language
+clr9q_4_2,clr9q,15 puzzle game,javascript,0.98748034,Game Development,Puzzles,T4,Different Language
+clr9q_4_2,clr9q,15 puzzle game,php,0.9804567,Game Development,Puzzles,T4,Different Language
+clr9q_4_2,clr9q,15 puzzle game,ruby,0.97744185,Game Development,Puzzles,T4,Different Language
+inmof_1_1,inmof,2048,python,1.0,Game Development,Puzzles,T1,Identical Clone
+inmof_1_2,inmof,2048,python,0.98282933,Game Development,Puzzles,T1,Different Whitespaces
+inmof_1_3,inmof,2048,python,0.99992794,Game Development,Puzzles,T1,Different Comments
+inmof_1_4,inmof,2048,python,0.9828172,Game Development,Puzzles,T1,Different Formatting
+inmof_2_1,inmof,2048,python,0.99946797,Game Development,Puzzles,T2,Different Variable Names
+inmof_2_2,inmof,2048,python,0.99999547,Game Development,Puzzles,T2,Different Data Types
+inmof_2_3,inmof,2048,python,0.9998859,Game Development,Puzzles,T2,Different Function Names
+inmof_3_1,inmof,2048,python,0.9998388,Game Development,Puzzles,T3,Added Statements
+inmof_3_2,inmof,2048,python,0.9997618,Game Development,Puzzles,T3,Removed Statements
+inmof_3_3,inmof,2048,python,0.9999131,Game Development,Puzzles,T3,Reordered Statements
+inmof_3_4,inmof,2048,python,0.9829213,Game Development,Puzzles,T3,Control Flow Modifications
+inmof_4_1,inmof,2048,python,0.9817948,Game Development,Puzzles,T4,Same Language
+inmof_4_2,inmof,2048,go,0.96517235,Game Development,Puzzles,T4,Different Language
+inmof_4_2,inmof,2048,java,0.97538686,Game Development,Puzzles,T4,Different Language
+inmof_4_2,inmof,2048,javascript,0.9869075,Game Development,Puzzles,T4,Different Language
+inmof_4_2,inmof,2048,php,0.98858404,Game Development,Puzzles,T4,Different Language
+inmof_4_2,inmof,2048,ruby,0.9801808,Game Development,Puzzles,T4,Different Language

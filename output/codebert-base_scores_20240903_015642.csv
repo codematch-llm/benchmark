@@ -1,0 +1,6 @@
+test_id,original_index,title,clone_domain_label,similarity_score,code_type,code_sub_type,clone_type,clone_sub_type
+4c5k_1,4c5k,Sorting Algorithm (Bubble Sort),Python,0.9999998,Data Structures & Algorithms,Sorting Algorithms,T1,Identical Clone
+4c5k_2,4c5k,Sorting Algorithm (Bubble Sort),JAVA,0.97105443,Data Structures & Algorithms,Sorting Algorithms,T4,Different Language
+4c5k_3,4c5k,Sorting Algorithm (Bubble Sort),JAVASCRIPT,0.9879123,Data Structures & Algorithms,Sorting Algorithms,T4,Different Language
+4c5k_4,4c5k,Sorting Algorithm (Bubble Sort),PHP,0.9781499,Data Structures & Algorithms,Sorting Algorithms,T4,Different Language
+4c5k_5,4c5k,Sorting Algorithm (Bubble Sort),RUBY,0.9866326,Data Structures & Algorithms,Sorting Algorithms,T4,Different Language

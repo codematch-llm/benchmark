@@ -1,0 +1,26 @@
+index,insperation_index_db,domain_label,label,code,Source,Description,Author,License 
+1,4c5k,python,Array length,">>> print(len([‘lemon’, 'orange']))
+2
+>>>",rosetta.csv,Same code ,N/A,N/A
+2,4c5k,python,Array length,">>> print(len([‘lemon’, 'orange']))
+2
+>>>",Me,Same language - different semantics,N/A,N/A
+3,4c5k,python,Array length,"fruits = ['apple', 'orange']
+length = sum([1 for _ in fruits])
+print(length)
+",ChatGPT,Same language - using list comprehension ,N/A,N/A
+4,4c5k,python,Array length,"fruits = ['apple', 'orange'] array_length = len(fruits) print(array_length)
+",ChatGPT,Same language - using variable assignment,N/A,N/A
+5,4c5k,python,Array length,"fruits = ['apple', 'orange'] length = sum(1 for _ in fruits) print(length)",ChatGPT,Same language - using sum(),N/A,N/A
+6,26lg,R,Array length,"fruits <- c('apple', 'orange')
+array_length <- length(fruits)
+print(array_length)",ChatGPT,Same language - Using length() function,N/A,N/A
+7,26lg,R,Array length,"count_elements <- function(arr) { count <- 0; for (element in arr) { count <- count + 1 }; return(count) }\nfruits <- c('apple', 'orange')\nprint(count_elements(fruits))",ChatGPT,Same language - Using loop to count elements,N/A,N/A
+8,26lg,R,Array length,"fruits <- c('apple', 'orange')\nlength <- sum(sapply(fruits, function(x) TRUE))\nprint(length)",ChatGPT,Same language - Using sapply and sum,N/A,N/A
+9,26lg,R,Array length,"fruits <- c('apple', 'orange')\ncount <- Reduce(function(x, y) x + 1, fruits, init = 0)\nprint(count)",ChatGPT,Same language - Using Reduce function,N/A,N/A
+,17pg,R,Array length,"SELECT COUNT(*) FROM (VALUES ('apple'),('orange'));",ChatGPT,Same language - Basic array length calculation,N/A,N/A
+,17pg,R,Array length,SELECT COUNT(*)\nFROM (\n SELECT 'apple' AS fruit\n UNION ALL\n SELECT 'orange' AS fruit\n) AS fruit_table;,ChatGPT,Same language - Using UNION ALL,N/A,N/A
+,17pg,R,Array length,"SELECT COUNT(fruit)\nFROM (VALUES ('apple'), ('orange')) AS fruit_table(fruit);",ChatGPT,Same language - Using VALUES with column name,N/A,N/A
+,17pg,R,Array length,"CREATE TEMPORARY TABLE fruit_table (fruit VARCHAR(50));\nINSERT INTO fruit_table (fruit)\nVALUES ('apple'), ('orange');\nSELECT COUNT(*)\nFROM fruit_table;\nDROP TABLE fruit_table;",ChatGPT,Same language - Using temporary table,N/A,N/A
+,,,,,,,N/A,N/A
+,,,,,,,N/A,N/A

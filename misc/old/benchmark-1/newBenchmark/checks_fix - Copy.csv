@@ -1,0 +1,502 @@
+﻿index,insperation_index_db,domain_label,label,code,Source,Description
+4c5k_1,4c5k,python,Sorting Algorithm (Bubble Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(numbers)",GPT,Same code
+4c5k_2,4c5k,python,Sorting Algorithm (Bubble Sort),"vals = [64, 34, 25, 12, 22, 11, 90]
+n = len(vals)
+
+for i in range(n):
+    swapped = False
+    for j in range(0, n-i-1):
+        if vals[j] > vals[j+1]:
+            vals[j], vals[j+1] = vals[j+1], vals[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(vals)",GPT,Different Variable Names
+4c5k_3,4c5k,python,Sorting Algorithm (Bubble Sort),"# Bubble Sort: Optimized version to stop if no elements were swapped in the inner loop
+numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        # Swap if the element found is greater than the next element
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    # If no two elements were swapped in the inner loop, the list is sorted
+    if not swapped:
+        break
+
+print(numbers)",GPT,With Documentation
+4c5k_4,4c5k,python,Sorting Algorithm (Bubble Sort),"import numpy as np
+
+numbers = np.array([64, 34, 25, 12, 22, 11, 90])
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(numbers)",GPT,With External Libraries
+4c5k_5,4c5k,python,Sorting Algorithm (Bubble Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+
+if not isinstance(numbers, list):
+    raise TypeError(""Input must be a list."")
+
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(numbers)",GPT,With Error Handling
+4c5k_6,4c5k,python,Sorting Algorithm (Bubble Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(length):
+    for _ in range(10):  # Introducing unnecessary operations
+        pass
+    for j in range(0, length-i-1):
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+
+print(numbers)",GPT,Non-Optimized Code
+4c5k_7,4c5k,python,Sorting Algorithm (Bubble Sort),"x1 = [64, 34, 25, 12, 22, 11, 90]
+x2 = len(x1)
+
+for x3 in range(x2):
+    swapped = False
+    for x4 in range(0, x2-x3-1):
+        if x1[x4] > x1[x4+1]:
+            x1[x4], x1[x4+1] = x1[x4+1], x1[x4]
+            swapped = True
+    if not swapped:
+        break
+
+print(x1)",GPT,Abstract Names
+4c5k_8,4c5k,python,Sorting Algorithm (Bubble Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(length):
+  swapped = False
+  for j in range(0, length-i-1):
+   if numbers[j] > numbers[j+1]:
+    numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+    swapped = True
+  if not swapped:
+    break
+
+print(numbers)",GPT,Different Indentations
+4c5k_9,4c5k,python,Sorting Algorithm (Bubble Sort),"def bubble_sort(numbers):
+    length = len(numbers)
+
+    for i in range(length):
+        swapped = False
+        for j in range(0, length-i-1):
+            if numbers[j] > numbers[j+1]:
+                numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+                swapped = True
+        if not swapped:
+            break
+    return numbers
+
+numbers = [64, 34, 25, 12, 22, 11, 90]
+sorted_numbers = bubble_sort(numbers)
+print(sorted_numbers)",GPT,Function
+4c5k_10,4c5k,python,Sorting Algorithm (Bubble Sort),"numbers = [64.5, 34.2, 25.1, 12.8, 22.9, 11.4, 90.0]  # Floats instead of integers
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(numbers)",GPT,Different Data Types
+4c5k_11,4c5k,python,Descending Sorting Algorithm (Bubble Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        if numbers[j] < numbers[j+1]:  # Changed logic to sort in descending order
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(numbers)",GPT,"Different Logic, Same Syntax"
+4c5k_12,4c5k,python,Sorting Algorithm (Bubble Sort),"x1 = [64, 34, 25, 12, 22, 11, 90]
+n = len(x1)
+
+for i in range(n):
+    swapped = False
+    for j in range(0, n-i-1):
+        if x1[j] > x1[j+1]:
+            x1[j], x1[j+1] = x1[j+1], x1[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(x1)",GPT,Different Variable Names + Abstract Names
+4c5k_13,4c5k,python,Sorting Algorithm (Bubble Sort),"import numpy as np
+
+# Optimized Bubble Sort with early exit and NumPy for array handling
+numbers = np.array([64, 34, 25, 12, 22, 11, 90])
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        # Swap if the element found is greater than the next element
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    # If no two elements were swapped in the inner loop, the list is sorted
+    if not swapped:
+        break
+
+print(numbers)",GPT,With Documentation + With External Libraries
+4c5k_14,4c5k,python,Sorting Algorithm (Bubble Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(length):
+    for _ in range(10):  # Extra operations added
+        pass
+    for j in range(0, length-i-1):
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+
+print(numbers)",GPT,Without Documentation + Non-Optimized Code
+4c5k_15,4c5k,python,Sorting Algorithm (Bubble Sort),"numbers = [64.5, 34.2, 25.1, 12.8, 22.9, 11.4, 90.0]
+
+if not all(isinstance(x, (int, float)) for x in numbers):
+    raise TypeError(""All elements must be integers or floats."")
+
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(numbers)",GPT,With Error Handling + Different Data Types
+4c5k_16,4c5k,python,Descending Sorting Algorithm (Bubble Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        if numbers[j] < numbers[j+1]:  # Sorting in descending order
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(numbers)",GPT,Different Logic Same Syntax + Optimized Code
+4c5k_17,4c5k,python,Sorting Algorithm (Bubble Sort),"def bubble_sort(nums):
+ length = len(nums)
+
+ for i in range(length):
+  swapped = False
+  for j in range(0, length-i-1):
+   if nums[j] > nums[j+1]:
+    nums[j], nums[j+1] = nums[j+1], nums[j]
+    swapped = True
+  if not swapped:
+   break
+ return nums
+
+numbers = [64, 34, 25, 12, 22, 11, 90]
+sorted_numbers = bubble_sort(numbers)
+print(sorted_numbers)",GPT,Function + Different Indentations
+4c5k_18,4c5k,python,Sorting Algorithm (Bubble Sort),"import numpy as np
+
+numbers = np.array([64, 34, 25, 12, 22, 11, 90])
+length = len(numbers)
+
+for i in range(length):
+    swapped = False
+    for j in range(0, length-i-1):
+        if numbers[j] > numbers[j+1]:
+            numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+            swapped = True
+    if not swapped:
+        break
+
+print(numbers.tolist())",GPT,No Function + With External Libraries
+5d6l_1,5d6l,python,Sorting Algorithm (Insertion Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,Same code
+5d6l_2,5d6l,python,Sorting Algorithm (Insertion Sort),"vals = [64, 34, 25, 12, 22, 11, 90]
+n = len(vals)
+
+for i in range(1, n):
+    key = vals[i]
+    j = i - 1
+    while j >= 0 and key < vals[j]:
+        vals[j + 1] = vals[j]
+        j -= 1
+    vals[j + 1] = key
+
+print(vals)",GPT,Different Variable Names
+5d6l_3,5d6l,python,Sorting Algorithm (Insertion Sort),"# Insertion Sort: Sorts a list by repeatedly inserting elements in their correct position
+numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    # Move elements of numbers[0...i-1], that are greater than key, to one position ahead
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,With Documentation
+5d6l_4,5d6l,python,Sorting Algorithm (Insertion Sort),"import numpy as np
+
+numbers = np.array([64, 34, 25, 12, 22, 11, 90])
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,With External Libraries
+5d6l_5,5d6l,python,Sorting Algorithm (Insertion Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+
+if not isinstance(numbers, list):
+    raise TypeError(""Input must be a list."")
+
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,With Error Handling
+5d6l_6,5d6l,python,Sorting Algorithm (Insertion Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+        for _ in range(10):  # Introducing unnecessary operations
+            pass
+    numbers[j + 1] = key
+
+print(numbers)",GPT,Non-Optimized Code
+5d6l_7,5d6l,python,Sorting Algorithm (Insertion Sort),"x1 = [64, 34, 25, 12, 22, 11, 90]
+n = len(x1)
+
+for x2 in range(1, n):
+    key = x1[x2]
+    j = x2 - 1
+    while j >= 0 and key < x1[j]:
+        x1[j + 1] = x1[j]
+        j -= 1
+    x1[j + 1] = key
+
+print(x1)",GPT,Abstract Names
+5d6l_8,5d6l,python,Sorting Algorithm (Insertion Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(1, length):
+ key = numbers[i]
+ j = i - 1
+ while j >= 0 and key < numbers[j]:
+  numbers[j + 1] = numbers[j]
+  j -= 1
+ numbers[j + 1] = key
+
+print(numbers)",GPT,Different Indentations
+5d6l_9,5d6l,python,Sorting Algorithm (Insertion Sort),"def insertion_sort(nums):
+    length = len(nums)
+
+    for i in range(1, length):
+        key = nums[i]
+        j = i - 1
+        while j >= 0 and key < nums[j]:
+            nums[j + 1] = nums[j]
+            j -= 1
+        nums[j + 1] = key
+    return nums
+
+numbers = [64, 34, 25, 12, 22, 11, 90]
+sorted_numbers = insertion_sort(numbers)
+print(sorted_numbers)",GPT,Function
+5d6l_10,5d6l,python,Sorting Algorithm (Insertion Sort),"numbers = [64.5, 34.2, 25.1, 12.8, 22.9, 11.4, 90.0]  # Floats instead of integers
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,Different Data Types
+5d6l_11,5d6l,python,Descending Sorting Algorithm (Insertion Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key > numbers[j]:  # Sorting in descending order
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,"Different Logic, Same Syntax"
+5d6l_12,5d6l,python,Sorting Algorithm (Insertion Sort),"x1 = [64, 34, 25, 12, 22, 11, 90]
+n = len(x1)
+
+for x2 in range(1, n):
+    key = x1[x2]
+    j = x2 - 1
+    while j >= 0 and key < x1[j]:
+        x1[j + 1] = x1[j]
+        j -= 1
+    x1[j + 1] = key
+
+print(x1)",GPT,Different Variable Names + Abstract Names
+5d6l_13,5d6l,python,Sorting Algorithm (Insertion Sort),"import numpy as np
+
+# Insertion Sort: Sorts an array by repeatedly inserting elements in their correct position
+numbers = np.array([64, 34, 25, 12, 22, 11, 90])
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    # Move elements of numbers[0...i-1], that are greater than key, to one position ahead
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,With Documentation + With External Libraries
+5d6l_14,5d6l,python,Sorting Algorithm (Insertion Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+        for _ in range(10):  # Extra operations added
+            pass
+    numbers[j + 1] = key
+
+print(numbers)",GPT,Without Documentation + Non-Optimized Code
+5d6l_15,5d6l,python,Sorting Algorithm (Insertion Sort),"numbers = [64.5, 34.2, 25.1, 12.8, 22.9, 11.4, 90.0]
+
+if not all(isinstance(x, (int, float)) for x in numbers):
+    raise TypeError(""All elements must be integers or floats."")
+
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,With Error Handling + Different Data Types
+5d6l_16,5d6l,python,Descending Sorting Algorithm (Insertion Sort),"numbers = [64, 34, 25, 12, 22, 11, 90]
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key > numbers[j]:  # Sorting in descending order
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers)",GPT,"Different Logic, Same Syntax + Optimized Code"
+5d6l_17,5d6l,python,Sorting Algorithm (Insertion Sort),"def insertion_sort(nums):
+ length = len(nums)
+
+ for i in range(1, length):
+  key = nums[i]
+  j = i - 1
+  while j >= 0 and key < nums[j]:
+   nums[j + 1] = nums[j]
+   j -= 1
+  nums[j + 1] = key
+ return nums
+
+numbers = [64, 34, 25, 12, 22, 11, 90]
+sorted_numbers = insertion_sort(numbers)
+print(sorted_numbers)",GPT,Function + Different Indentations
+5d6l_18,5d6l,python,Sorting Algorithm (Insertion Sort),"import numpy as np
+
+numbers = np.array([64, 34, 25, 12, 22, 11, 90])
+length = len(numbers)
+
+for i in range(1, length):
+    key = numbers[i]
+    j = i - 1
+    while j >= 0 and key < numbers[j]:
+        numbers[j + 1] = numbers[j]
+        j -= 1
+    numbers[j + 1] = key
+
+print(numbers.tolist())",GPT,No Function + With External Libraries
+unrelated_1,,python,Print Hello World,"print('Hello, World!')",generated,A code snippet unrelated to any found in the examples

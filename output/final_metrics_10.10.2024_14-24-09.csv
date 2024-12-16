@@ -1,0 +1,19 @@
+Metric Category,Number of Instances,Total Passed,Total Failed,Average similarity_score,Median similarity_score,Accuracy,Precision,Recall,F1-Score,True Positives (TP),True Negatives (TN),False Positives (FP),False Negatives (FN)
+Overall,67,67,0,0.9861663185074625,0.99688864,1.0,1.0,1.0,1.0,67,0,0,0
+By Clone Type - T1,16,16,0,0.994490524375,0.9997015,1.0,1.0,1.0,1.0,16,0,0,0
+By Clone Type - T2,12,12,0,0.9990036841666668,0.9995423,1.0,1.0,1.0,1.0,12,0,0,0
+By Clone Type - T3,16,16,0,0.9968082424999999,0.9989887,1.0,1.0,1.0,1.0,16,0,0,0
+By Clone Type - T4,23,23,0,0.9662747330434781,0.97955364,1.0,1.0,1.0,1.0,23,0,0,0
+Within T1 - Identical Clone,4,4,0,0.999999975,1.0,1.0,1.0,1.0,1.0,4,0,0,0
+Within T1 - Different Whitespaces,4,4,0,0.9831760225,0.98479575,1.0,1.0,1.0,1.0,4,0,0,0
+Within T1 - Different Comments,4,4,0,0.9995782175,0.999702485,1.0,1.0,1.0,1.0,4,0,0,0
+Within T1 - Different Formatting,4,4,0,0.9952078824999999,0.9990542849999999,1.0,1.0,1.0,1.0,4,0,0,0
+Within T2 - Different Variable Names,4,4,0,0.9984540375,0.9992669249999999,1.0,1.0,1.0,1.0,4,0,0,0
+Within T2 - Different Data Types,4,4,0,0.998675715,0.99896463,1.0,1.0,1.0,1.0,4,0,0,0
+Within T2 - Different Function Names,4,4,0,0.9998813,0.99991595,1.0,1.0,1.0,1.0,4,0,0,0
+Within T3 - Added Statements,4,4,0,0.997650645,0.99835012,1.0,1.0,1.0,1.0,4,0,0,0
+Within T3 - Removed Statements,4,4,0,0.999151075,0.99914335,1.0,1.0,1.0,1.0,4,0,0,0
+Within T3 - Reordered Statements,4,4,0,0.9969666175,0.998930455,1.0,1.0,1.0,1.0,4,0,0,0
+Within T3 - Control Flow Modifications,4,4,0,0.9934646325,0.9961683699999999,1.0,1.0,1.0,1.0,4,0,0,0
+Within T4 - Same Language,4,4,0,0.9858552,0.98713845,1.0,1.0,1.0,1.0,4,0,0,0
+Within T4 - Different Language,19,19,0,0.9621525294736841,0.97947675,1.0,1.0,1.0,1.0,19,0,0,0

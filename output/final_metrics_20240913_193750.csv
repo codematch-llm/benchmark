@@ -1,0 +1,21 @@
+Metric Category,Number of Instances,Total Passed,Total Failed,Average similarity_score,Median similarity_score,Accuracy,Precision,Recall,F1-Score,True Positives (TP),True Negatives (TN),False Positives (FP),False Negatives (FN)
+Overall,60,60,0,0.986217994,0.993341315,1,1,1,1,60,0,0,0
+By Clone Type - Type 1 Clone (Exact Clone),16,16,0,0.991199637,0.996585575,1,1,1,1,16,0,0,0
+By Clone Type - Type 2 Clone (Renamed Clone),12,12,0,0.994134657,0.99695301,1,1,1,1,12,0,0,0
+By Clone Type - Type 3 Clone (Near-Miss Clone),16,16,0,0.994743571,0.99587675,1,1,1,1,16,0,0,0
+By Clone Type - Type 4 Clone (Semantic Clone),16,16,0,0.966773278,0.97051645,1,1,1,1,16,0,0,0
+Within Type 1 Clone (Exact Clone) - Identical Clone,4,4,0,1.0000001,1.0000001,1,1,1,1,4,0,0,0
+Within Type 1 Clone (Exact Clone) - Different Whitespaces,4,4,0,0.993073465,0.99810758,1,1,1,1,4,0,0,0
+Within Type 1 Clone (Exact Clone) - Different Comments,4,4,0,0.989160388,0.98840575,1,1,1,1,4,0,0,0
+Within Type 1 Clone (Exact Clone) - Different Formatting,4,4,0,0.982564595,0.982131365,1,1,1,1,4,0,0,0
+Within Type 2 Clone (Renamed Clone) - Different variable names,4,4,0,0.993800067,0.996516635,1,1,1,1,4,0,0,0
+Within Type 2 Clone (Renamed Clone) - Different data types,4,4,0,0.995496245,0.99695301,1,1,1,1,4,0,0,0
+Within Type 2 Clone (Renamed Clone) - Different function names,4,4,0,0.993107658,0.99306065,1,1,1,1,4,0,0,0
+Within Type 3 Clone (Near-Miss Clone) - Added statements,4,4,0,0.99088969,0.99065633,1,1,1,1,4,0,0,0
+Within Type 3 Clone (Near-Miss Clone) - Removed statements,4,4,0,0.995922508,0.997413115,1,1,1,1,4,0,0,0
+Within Type 3 Clone (Near-Miss Clone) - Reordered statements,4,4,0,0.99754114,0.99839783,1,1,1,1,4,0,0,0
+Within Type 3 Clone (Near-Miss Clone) - Control Flow Modifications,4,4,0,0.994620948,0.995120615,1,1,1,1,4,0,0,0
+Within Type 4 Clone (Semantic Clone) - Same language-Different Implementation,4,4,0,0.990485893,0.993341315,1,1,1,1,4,0,0,0
+Within Type 4 Clone (Semantic Clone) - Different language-Java,4,4,0,0.957113413,0.965440975,1,1,1,1,4,0,0,0
+Within Type 4 Clone (Semantic Clone) - Different language-C,4,4,0,0.964863593,0.977774085,1,1,1,1,4,0,0,0
+Within Type 4 Clone (Semantic Clone) - Different language-GO,4,4,0,0.954630213,0.954612525,1,1,1,1,4,0,0,0

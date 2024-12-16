@@ -1,0 +1,61 @@
+test_id,original_index,title,clone_domain_label,similarity_score,clone_type,clone_sub_type
+4c5k_1,4c5k,Sorting Algorithm (Bubble Sort),Python,1,Type 1 Clone (Exact Clone),Identical Clone
+4c5k_2,4c5k,Sorting Algorithm (Bubble Sort),Python,0.9775142,Type 1 Clone (Exact Clone),Different Whitespaces
+4c5k_3,4c5k,Sorting Algorithm (Bubble Sort),Python,0.9914511,Type 1 Clone (Exact Clone),Different Comments
+4c5k_4,4c5k,Sorting Algorithm (Bubble Sort),Python,0.99889195,Type 1 Clone (Exact Clone),Different Formatting
+4c5k_5,4c5k,Sorting Algorithm (Bubble Sort),Python,0.9981259,Type 2 Clone (Renamed Clone),Different variable names
+4c5k_6,4c5k,Sorting Algorithm (Bubble Sort),Python,0.99855316,Type 2 Clone (Renamed Clone),Different data types
+4c5k_7,4c5k,Sorting Algorithm (Bubble Sort),Python,0.9997413,Type 2 Clone (Renamed Clone),Different function names
+4c5k_8,4c5k,Sorting Algorithm (Bubble Sort),Python,0.99852526,Type 3 Clone (Near-Miss Clone),Added statements
+4c5k_9,4c5k,Sorting Algorithm (Bubble Sort),Python,0.99873453,Type 3 Clone (Near-Miss Clone),Removed statements
+4c5k_10,4c5k,Sorting Algorithm (Bubble Sort),Python,0.9991075,Type 3 Clone (Near-Miss Clone),Reordered statements
+4c5k_11,4c5k,Sorting Algorithm (Bubble Sort),Python,0.99929756,Type 3 Clone (Near-Miss Clone),Control Flow Modifications
+4c5k_12,4c5k,Sorting Algorithm (Bubble Sort),Python,0.9969283,Type 4 Clone (Semantic Clone),Same language-Different Implementation
+4c5k_13,4c5k,Sorting Algorithm (Bubble Sort),Java,0.9690896,Type 4 Clone (Semantic Clone),Different language-Java
+4c5k_14,4c5k,Sorting Algorithm (Bubble Sort),C,0.9838463,Type 4 Clone (Semantic Clone),Different language-C
+4c5k_15,4c5k,Sorting Algorithm (Bubble Sort),GO,0.957335,Type 4 Clone (Semantic Clone),Different language-GO
+1a2b_1,1a2b,Array concatenation,Python,1.0000001,Type 1 Clone (Exact Clone),Identical Clone
+1a2b_2,1a2b,Array concatenation,Python,0.9985645,Type 1 Clone (Exact Clone),Different Whitespaces
+1a2b_3,1a2b,Array concatenation,Python,0.9853604,Type 1 Clone (Exact Clone),Different Comments
+1a2b_4,1a2b,Array concatenation,Python,0.97687817,Type 1 Clone (Exact Clone),Different Formatting
+1a2b_5,1a2b,Array concatenation,Python,0.997663,Type 2 Clone (Renamed Clone),Different variable names
+1a2b_6,1a2b,Array concatenation,Python,0.9895258,Type 2 Clone (Renamed Clone),Different data types
+1a2b_7,1a2b,Array concatenation,Python,0.98656803,Type 2 Clone (Renamed Clone),Different function names
+1a2b_8,1a2b,Array concatenation,Python,0.99005616,Type 3 Clone (Near-Miss Clone),Added statements
+1a2b_9,1a2b,Array concatenation,Python,0.989783,Type 3 Clone (Near-Miss Clone),Removed statements
+1a2b_10,1a2b,Array concatenation,Python,0.9982754,Type 3 Clone (Near-Miss Clone),Reordered statements
+1a2b_11,1a2b,Array concatenation,Python,0.9956618,Type 3 Clone (Near-Miss Clone),Control Flow Modifications
+1a2b_12,1a2b,Array concatenation,Python,0.9935172,Type 4 Clone (Semantic Clone),Same language-Different Implementation
+1a2b_13,1a2b,Array concatenation,Java,0.9256284,Type 4 Clone (Semantic Clone),Different language-Java
+1a2b_14,1a2b,Array concatenation,C,0.9200599,Type 4 Clone (Semantic Clone),Different language-C
+1a2b_15,1a2b,Array concatenation,GO,0.9468074,Type 4 Clone (Semantic Clone),Different language-GO
+2c3d_1,2c3d,Arithmetic-geometric mean,Python,1.0000002,Type 1 Clone (Exact Clone),Identical Clone
+2c3d_2,2c3d,Arithmetic-geometric mean,Python,0.99831426,Type 1 Clone (Exact Clone),Different Whitespaces
+2c3d_3,2c3d,Arithmetic-geometric mean,Python,0.9845598,Type 1 Clone (Exact Clone),Different Comments
+2c3d_4,2c3d,Arithmetic-geometric mean,Python,0.98738456,Type 1 Clone (Exact Clone),Different Formatting
+2c3d_5,2c3d,Arithmetic-geometric mean,Python,0.9840411,Type 2 Clone (Renamed Clone),Different variable names
+2c3d_6,2c3d,Arithmetic-geometric mean,Python,0.99715257,Type 2 Clone (Renamed Clone),Different data types
+2c3d_7,2c3d,Arithmetic-geometric mean,Python,0.99850965,Type 2 Clone (Renamed Clone),Different function names
+2c3d_8,2c3d,Arithmetic-geometric mean,Python,0.98372084,Type 3 Clone (Near-Miss Clone),Added statements
+2c3d_9,2c3d,Arithmetic-geometric mean,Python,0.9960917,Type 3 Clone (Near-Miss Clone),Removed statements
+2c3d_10,2c3d,Arithmetic-geometric mean,Python,0.9942614,Type 3 Clone (Near-Miss Clone),Reordered statements
+2c3d_11,2c3d,Arithmetic-geometric mean,Python,0.99457943,Type 3 Clone (Near-Miss Clone),Control Flow Modifications
+2c3d_12,2c3d,Arithmetic-geometric mean,Python,0.99316543,Type 4 Clone (Semantic Clone),Same language-Different Implementation
+2c3d_13,2c3d,Arithmetic-geometric mean,Java,0.9719433,Type 4 Clone (Semantic Clone),Different language-Java
+2c3d_14,2c3d,Arithmetic-geometric mean,C,0.97866774,Type 4 Clone (Semantic Clone),Different language-C
+2c3d_15,2c3d,Arithmetic-geometric mean,GO,0.9624884,Type 4 Clone (Semantic Clone),Different language-GO
+3d4e_1,3d4e,Write to Windows event log,Python,1.0000001,Type 1 Clone (Exact Clone),Identical Clone
+3d4e_2,3d4e,Write to Windows event log,Python,0.9979009,Type 1 Clone (Exact Clone),Different Whitespaces
+3d4e_3,3d4e,Write to Windows event log,Python,0.99527025,Type 1 Clone (Exact Clone),Different Comments
+3d4e_4,3d4e,Write to Windows event log,Python,0.9671037,Type 1 Clone (Exact Clone),Different Formatting
+3d4e_5,3d4e,Write to Windows event log,Python,0.99537027,Type 2 Clone (Renamed Clone),Different variable names
+3d4e_6,3d4e,Write to Windows event log,Python,0.99675345,Type 2 Clone (Renamed Clone),Different data types
+3d4e_7,3d4e,Write to Windows event log,Python,0.98761165,Type 2 Clone (Renamed Clone),Different function names
+3d4e_8,3d4e,Write to Windows event log,Python,0.9912565,Type 3 Clone (Near-Miss Clone),Added statements
+3d4e_9,3d4e,Write to Windows event log,Python,0.9990808,Type 3 Clone (Near-Miss Clone),Removed statements
+3d4e_10,3d4e,Write to Windows event log,Python,0.99852026,Type 3 Clone (Near-Miss Clone),Reordered statements
+3d4e_11,3d4e,Write to Windows event log,Python,0.988945,Type 3 Clone (Near-Miss Clone),Control Flow Modifications
+3d4e_12,3d4e,Write to Windows event log,Python,0.97833264,Type 4 Clone (Semantic Clone),Same language-Different Implementation
+3d4e_13,3d4e,Write to Windows event log,Java,0.96179235,Type 4 Clone (Semantic Clone),Different language-Java
+3d4e_14,3d4e,Write to Windows event log,C,0.97688043,Type 4 Clone (Semantic Clone),Different language-C
+3d4e_15,3d4e,Write to Windows event log,GO,0.95189005,Type 4 Clone (Semantic Clone),Different language-GO

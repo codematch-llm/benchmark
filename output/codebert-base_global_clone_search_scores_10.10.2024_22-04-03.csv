@@ -1,0 +1,269 @@
+test_id,clone_code_id,clone_language,clone_task,clone_domain,clone_subdomain,clone_type,clone_sub_type,similarity_score,base_code_id,base_language,base_task,base_domain,base_subdomain
+z4tt_1_1_1,z4tt_1_1,python,100 doors,Game Development,Puzzles,T1,Identical Clone,0.9999999,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_1_1_2,z4tt_1_1,python,100 doors,Game Development,Puzzles,T1,Identical Clone,0.9287743,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_1_1_3,z4tt_1_1,python,100 doors,Game Development,Puzzles,T1,Identical Clone,0.92812777,inmof,python,2048,Game Development,Puzzles
+z4tt_1_1_4,z4tt_1_1,python,100 doors,Game Development,Puzzles,T1,Identical Clone,0.92356545,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_1_2_1,z4tt_1_2,python,100 doors,Game Development,Puzzles,T1,Different Whitespaces,0.99402833,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_1_2_2,z4tt_1_2,python,100 doors,Game Development,Puzzles,T1,Different Whitespaces,0.9278691,inmof,python,2048,Game Development,Puzzles
+z4tt_1_2_3,z4tt_1_2,python,100 doors,Game Development,Puzzles,T1,Different Whitespaces,0.9165608,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_1_2_4,z4tt_1_2,python,100 doors,Game Development,Puzzles,T1,Different Whitespaces,0.9041378,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_1_3_1,z4tt_1_3,python,100 doors,Game Development,Puzzles,T1,Different Comments,0.9986343,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_1_3_2,z4tt_1_3,python,100 doors,Game Development,Puzzles,T1,Different Comments,0.9307952,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_1_3_3,z4tt_1_3,python,100 doors,Game Development,Puzzles,T1,Different Comments,0.93032205,inmof,python,2048,Game Development,Puzzles
+z4tt_1_3_4,z4tt_1_3,python,100 doors,Game Development,Puzzles,T1,Different Comments,0.9232409,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_1_4_1,z4tt_1_4,python,100 doors,Game Development,Puzzles,T1,Different Formatting,0.9992957,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_1_4_2,z4tt_1_4,python,100 doors,Game Development,Puzzles,T1,Different Formatting,0.9285991,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_1_4_3,z4tt_1_4,python,100 doors,Game Development,Puzzles,T1,Different Formatting,0.9263162,inmof,python,2048,Game Development,Puzzles
+z4tt_1_4_4,z4tt_1_4,python,100 doors,Game Development,Puzzles,T1,Different Formatting,0.92502046,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_2_1_1,z4tt_2_1,python,100 doors,Game Development,Puzzles,T2,Different Variable Names,0.99656343,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_2_1_2,z4tt_2_1,python,100 doors,Game Development,Puzzles,T2,Different Variable Names,0.9219115,inmof,python,2048,Game Development,Puzzles
+z4tt_2_1_3,z4tt_2_1,python,100 doors,Game Development,Puzzles,T2,Different Variable Names,0.9213258,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_2_1_4,z4tt_2_1,python,100 doors,Game Development,Puzzles,T2,Different Variable Names,0.91435987,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_2_2_1,z4tt_2_2,python,100 doors,Game Development,Puzzles,T2,Different Data Types,0.9985461,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_2_2_2,z4tt_2_2,python,100 doors,Game Development,Puzzles,T2,Different Data Types,0.92726564,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_2_2_3,z4tt_2_2,python,100 doors,Game Development,Puzzles,T2,Different Data Types,0.9248539,inmof,python,2048,Game Development,Puzzles
+z4tt_2_2_4,z4tt_2_2,python,100 doors,Game Development,Puzzles,T2,Different Data Types,0.92388,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_2_3_1,z4tt_2_3,python,100 doors,Game Development,Puzzles,T2,Different Function Names,0.9986019,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_2_3_2,z4tt_2_3,python,100 doors,Game Development,Puzzles,T2,Different Function Names,0.9292891,inmof,python,2048,Game Development,Puzzles
+z4tt_2_3_3,z4tt_2_3,python,100 doors,Game Development,Puzzles,T2,Different Function Names,0.9285027,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_2_3_4,z4tt_2_3,python,100 doors,Game Development,Puzzles,T2,Different Function Names,0.9223116,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_3_1_1,z4tt_3_1,python,100 doors,Game Development,Puzzles,T3,Added Statements,0.9977388,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_3_1_2,z4tt_3_1,python,100 doors,Game Development,Puzzles,T3,Added Statements,0.9300592,inmof,python,2048,Game Development,Puzzles
+z4tt_3_1_3,z4tt_3_1,python,100 doors,Game Development,Puzzles,T3,Added Statements,0.9294053,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_3_1_4,z4tt_3_1,python,100 doors,Game Development,Puzzles,T3,Added Statements,0.92525375,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_3_2_1,z4tt_3_2,python,100 doors,Game Development,Puzzles,T3,Removed Statements,0.99937063,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_3_2_2,z4tt_3_2,python,100 doors,Game Development,Puzzles,T3,Removed Statements,0.92576003,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_3_2_3,z4tt_3_2,python,100 doors,Game Development,Puzzles,T3,Removed Statements,0.92474246,inmof,python,2048,Game Development,Puzzles
+z4tt_3_2_4,z4tt_3_2,python,100 doors,Game Development,Puzzles,T3,Removed Statements,0.92167985,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_3_3_1,z4tt_3_3,python,100 doors,Game Development,Puzzles,T3,Reordered Statements,0.9989482,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_3_3_2,z4tt_3_3,python,100 doors,Game Development,Puzzles,T3,Reordered Statements,0.9291897,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_3_3_3,z4tt_3_3,python,100 doors,Game Development,Puzzles,T3,Reordered Statements,0.9282843,inmof,python,2048,Game Development,Puzzles
+z4tt_3_3_4,z4tt_3_3,python,100 doors,Game Development,Puzzles,T3,Reordered Statements,0.9221658,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_3_4_1,z4tt_3_4,python,100 doors,Game Development,Puzzles,T3,Control Flow Modifications,0.9954015,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_3_4_2,z4tt_3_4,python,100 doors,Game Development,Puzzles,T3,Control Flow Modifications,0.92523474,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_3_4_3,z4tt_3_4,python,100 doors,Game Development,Puzzles,T3,Control Flow Modifications,0.92406577,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_3_4_4,z4tt_3_4,python,100 doors,Game Development,Puzzles,T3,Control Flow Modifications,0.91820955,inmof,python,2048,Game Development,Puzzles
+z4tt_4_1_1,z4tt_4_1,python,100 doors,Game Development,Puzzles,T4,Same Language,0.99789906,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_4_1_2,z4tt_4_1,python,100 doors,Game Development,Puzzles,T4,Same Language,0.9343395,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_4_1_3,z4tt_4_1,python,100 doors,Game Development,Puzzles,T4,Same Language,0.9317318,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_4_1_4,z4tt_4_1,python,100 doors,Game Development,Puzzles,T4,Same Language,0.9309902,inmof,python,2048,Game Development,Puzzles
+z4tt_4_2_1,z4tt_4_2,go,100 doors,Game Development,Puzzles,T4,Different Language,0.94561076,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_4_2_2,z4tt_4_2,go,100 doors,Game Development,Puzzles,T4,Different Language,0.8886688,inmof,python,2048,Game Development,Puzzles
+z4tt_4_2_3,z4tt_4_2,go,100 doors,Game Development,Puzzles,T4,Different Language,0.8687373,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_4_2_4,z4tt_4_2,go,100 doors,Game Development,Puzzles,T4,Different Language,0.86348027,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_4_2_1,z4tt_4_2,java,100 doors,Game Development,Puzzles,T4,Different Language,0.9791915,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_4_2_2,z4tt_4_2,java,100 doors,Game Development,Puzzles,T4,Different Language,0.975103,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_4_2_3,z4tt_4_2,java,100 doors,Game Development,Puzzles,T4,Different Language,0.94881815,inmof,python,2048,Game Development,Puzzles
+z4tt_4_2_4,z4tt_4_2,java,100 doors,Game Development,Puzzles,T4,Different Language,0.94147605,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_4_2_1,z4tt_4_2,javascript,100 doors,Game Development,Puzzles,T4,Different Language,0.9798317,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_4_2_2,z4tt_4_2,javascript,100 doors,Game Development,Puzzles,T4,Different Language,0.94234,inmof,python,2048,Game Development,Puzzles
+z4tt_4_2_3,z4tt_4_2,javascript,100 doors,Game Development,Puzzles,T4,Different Language,0.9394878,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_4_2_4,z4tt_4_2,javascript,100 doors,Game Development,Puzzles,T4,Different Language,0.92912054,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_4_2_1,z4tt_4_2,php,100 doors,Game Development,Puzzles,T4,Different Language,0.97955364,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_4_2_2,z4tt_4_2,php,100 doors,Game Development,Puzzles,T4,Different Language,0.9326568,inmof,python,2048,Game Development,Puzzles
+z4tt_4_2_3,z4tt_4_2,php,100 doors,Game Development,Puzzles,T4,Different Language,0.91717434,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_4_2_4,z4tt_4_2,php,100 doors,Game Development,Puzzles,T4,Different Language,0.9020188,vu129,python,100 prisoners,Game Development,Puzzles
+z4tt_4_2_1,z4tt_4_2,ruby,100 doors,Game Development,Puzzles,T4,Different Language,0.9837183,z4tt,python,100 doors,Game Development,Puzzles
+z4tt_4_2_2,z4tt_4_2,ruby,100 doors,Game Development,Puzzles,T4,Different Language,0.9170362,inmof,python,2048,Game Development,Puzzles
+z4tt_4_2_3,z4tt_4_2,ruby,100 doors,Game Development,Puzzles,T4,Different Language,0.9131224,clr9q,python,15 puzzle game,Game Development,Puzzles
+z4tt_4_2_4,z4tt_4_2,ruby,100 doors,Game Development,Puzzles,T4,Different Language,0.9095543,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_1_1_1,vu129_1_1,python,100 prisoners,Game Development,Puzzles,T1,Identical Clone,1.0,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_1_1_2,vu129_1_1,python,100 prisoners,Game Development,Puzzles,T1,Identical Clone,0.98731136,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_1_1_3,vu129_1_1,python,100 prisoners,Game Development,Puzzles,T1,Identical Clone,0.95824844,inmof,python,2048,Game Development,Puzzles
+vu129_1_1_4,vu129_1_1,python,100 prisoners,Game Development,Puzzles,T1,Identical Clone,0.92356545,z4tt,python,100 doors,Game Development,Puzzles
+vu129_1_2_1,vu129_1_2,python,100 prisoners,Game Development,Puzzles,T1,Different Whitespaces,0.98198456,inmof,python,2048,Game Development,Puzzles
+vu129_1_2_2,vu129_1_2,python,100 prisoners,Game Development,Puzzles,T1,Different Whitespaces,0.97683907,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_1_2_3,vu129_1_2,python,100 prisoners,Game Development,Puzzles,T1,Different Whitespaces,0.9688635,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_1_2_4,vu129_1_2,python,100 prisoners,Game Development,Puzzles,T1,Different Whitespaces,0.9332594,z4tt,python,100 doors,Game Development,Puzzles
+vu129_1_3_1,vu129_1_3,python,100 prisoners,Game Development,Puzzles,T1,Different Comments,0.9994661,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_1_3_2,vu129_1_3,python,100 prisoners,Game Development,Puzzles,T1,Different Comments,0.98832643,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_1_3_3,vu129_1_3,python,100 prisoners,Game Development,Puzzles,T1,Different Comments,0.9623128,inmof,python,2048,Game Development,Puzzles
+vu129_1_3_4,vu129_1_3,python,100 prisoners,Game Development,Puzzles,T1,Different Comments,0.92544734,z4tt,python,100 doors,Game Development,Puzzles
+vu129_1_4_1,vu129_1_4,python,100 prisoners,Game Development,Puzzles,T1,Different Formatting,0.9995636,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_1_4_2,vu129_1_4,python,100 prisoners,Game Development,Puzzles,T1,Different Formatting,0.9864063,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_1_4_3,vu129_1_4,python,100 prisoners,Game Development,Puzzles,T1,Different Formatting,0.95478094,inmof,python,2048,Game Development,Puzzles
+vu129_1_4_4,vu129_1_4,python,100 prisoners,Game Development,Puzzles,T1,Different Formatting,0.9219918,z4tt,python,100 doors,Game Development,Puzzles
+vu129_2_1_1,vu129_2_1,python,100 prisoners,Game Development,Puzzles,T2,Different Variable Names,0.999232,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_2_1_2,vu129_2_1,python,100 prisoners,Game Development,Puzzles,T2,Different Variable Names,0.98392004,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_2_1_3,vu129_2_1,python,100 prisoners,Game Development,Puzzles,T2,Different Variable Names,0.95209205,inmof,python,2048,Game Development,Puzzles
+vu129_2_1_4,vu129_2_1,python,100 prisoners,Game Development,Puzzles,T2,Different Variable Names,0.9190597,z4tt,python,100 doors,Game Development,Puzzles
+vu129_2_2_1,vu129_2_2,python,100 prisoners,Game Development,Puzzles,T2,Different Data Types,0.9980772,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_2_2_2,vu129_2_2,python,100 prisoners,Game Development,Puzzles,T2,Different Data Types,0.9877684,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_2_2_3,vu129_2_2,python,100 prisoners,Game Development,Puzzles,T2,Different Data Types,0.95938873,inmof,python,2048,Game Development,Puzzles
+vu129_2_2_4,vu129_2_2,python,100 prisoners,Game Development,Puzzles,T2,Different Data Types,0.9264369,z4tt,python,100 doors,Game Development,Puzzles
+vu129_2_3_1,vu129_2_3,python,100 prisoners,Game Development,Puzzles,T2,Different Function Names,0.9999887,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_2_3_2,vu129_2_3,python,100 prisoners,Game Development,Puzzles,T2,Different Function Names,0.98729485,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_2_3_3,vu129_2_3,python,100 prisoners,Game Development,Puzzles,T2,Different Function Names,0.9582876,inmof,python,2048,Game Development,Puzzles
+vu129_2_3_4,vu129_2_3,python,100 prisoners,Game Development,Puzzles,T2,Different Function Names,0.92354226,z4tt,python,100 doors,Game Development,Puzzles
+vu129_3_1_1,vu129_3_1,python,100 prisoners,Game Development,Puzzles,T3,Added Statements,0.9997015,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_3_1_2,vu129_3_1,python,100 prisoners,Game Development,Puzzles,T3,Added Statements,0.9872741,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_3_1_3,vu129_3_1,python,100 prisoners,Game Development,Puzzles,T3,Added Statements,0.956707,inmof,python,2048,Game Development,Puzzles
+vu129_3_1_4,vu129_3_1,python,100 prisoners,Game Development,Puzzles,T3,Added Statements,0.9221511,z4tt,python,100 doors,Game Development,Puzzles
+vu129_3_2_1,vu129_3_2,python,100 prisoners,Game Development,Puzzles,T3,Removed Statements,0.9928801,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_3_2_2,vu129_3_2,python,100 prisoners,Game Development,Puzzles,T3,Removed Statements,0.9897347,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_3_2_3,vu129_3_2,python,100 prisoners,Game Development,Puzzles,T3,Removed Statements,0.9717105,inmof,python,2048,Game Development,Puzzles
+vu129_3_2_4,vu129_3_2,python,100 prisoners,Game Development,Puzzles,T3,Removed Statements,0.9286529,z4tt,python,100 doors,Game Development,Puzzles
+vu129_3_3_1,vu129_3_3,python,100 prisoners,Game Development,Puzzles,T3,Reordered Statements,0.99973047,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_3_3_2,vu129_3_3,python,100 prisoners,Game Development,Puzzles,T3,Reordered Statements,0.98726714,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_3_3_3,vu129_3_3,python,100 prisoners,Game Development,Puzzles,T3,Reordered Statements,0.9568199,inmof,python,2048,Game Development,Puzzles
+vu129_3_3_4,vu129_3_3,python,100 prisoners,Game Development,Puzzles,T3,Reordered Statements,0.92220914,z4tt,python,100 doors,Game Development,Puzzles
+vu129_3_4_1,vu129_3_4,python,100 prisoners,Game Development,Puzzles,T3,Control Flow Modifications,0.99898124,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_3_4_2,vu129_3_4,python,100 prisoners,Game Development,Puzzles,T3,Control Flow Modifications,0.98797584,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_3_4_3,vu129_3_4,python,100 prisoners,Game Development,Puzzles,T3,Control Flow Modifications,0.95896864,inmof,python,2048,Game Development,Puzzles
+vu129_3_4_4,vu129_3_4,python,100 prisoners,Game Development,Puzzles,T3,Control Flow Modifications,0.9218451,z4tt,python,100 doors,Game Development,Puzzles
+vu129_4_1_1,vu129_4_1,python,100 prisoners,Game Development,Puzzles,T4,Same Language,0.985229,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_4_1_2,vu129_4_1,python,100 prisoners,Game Development,Puzzles,T4,Same Language,0.97935486,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_4_1_3,vu129_4_1,python,100 prisoners,Game Development,Puzzles,T4,Same Language,0.97891986,inmof,python,2048,Game Development,Puzzles
+vu129_4_1_4,vu129_4_1,python,100 prisoners,Game Development,Puzzles,T4,Same Language,0.9407588,z4tt,python,100 doors,Game Development,Puzzles
+vu129_4_2_1,vu129_4_2,go,100 prisoners,Game Development,Puzzles,T4,Different Language,0.9611594,z4tt,python,100 doors,Game Development,Puzzles
+vu129_4_2_2,vu129_4_2,go,100 prisoners,Game Development,Puzzles,T4,Different Language,0.90710866,inmof,python,2048,Game Development,Puzzles
+vu129_4_2_3,vu129_4_2,go,100 prisoners,Game Development,Puzzles,T4,Different Language,0.90022385,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_4_2_4,vu129_4_2,go,100 prisoners,Game Development,Puzzles,T4,Different Language,0.89827013,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_4_2_1,vu129_4_2,java,100 prisoners,Game Development,Puzzles,T4,Different Language,0.9845103,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_4_2_2,vu129_4_2,java,100 prisoners,Game Development,Puzzles,T4,Different Language,0.98181593,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_4_2_3,vu129_4_2,java,100 prisoners,Game Development,Puzzles,T4,Different Language,0.96511215,inmof,python,2048,Game Development,Puzzles
+vu129_4_2_4,vu129_4_2,java,100 prisoners,Game Development,Puzzles,T4,Different Language,0.91533256,z4tt,python,100 doors,Game Development,Puzzles
+vu129_4_2_1,vu129_4_2,javascript,100 prisoners,Game Development,Puzzles,T4,Different Language,0.9609592,z4tt,python,100 doors,Game Development,Puzzles
+vu129_4_2_2,vu129_4_2,javascript,100 prisoners,Game Development,Puzzles,T4,Different Language,0.91310227,inmof,python,2048,Game Development,Puzzles
+vu129_4_2_3,vu129_4_2,javascript,100 prisoners,Game Development,Puzzles,T4,Different Language,0.88974446,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_4_2_4,vu129_4_2,javascript,100 prisoners,Game Development,Puzzles,T4,Different Language,0.87611127,vu129,python,100 prisoners,Game Development,Puzzles
+vu129_4_2_1,vu129_4_2,ruby,100 prisoners,Game Development,Puzzles,T4,Different Language,0.9615156,inmof,python,2048,Game Development,Puzzles
+vu129_4_2_2,vu129_4_2,ruby,100 prisoners,Game Development,Puzzles,T4,Different Language,0.95630044,z4tt,python,100 doors,Game Development,Puzzles
+vu129_4_2_3,vu129_4_2,ruby,100 prisoners,Game Development,Puzzles,T4,Different Language,0.9504976,clr9q,python,15 puzzle game,Game Development,Puzzles
+vu129_4_2_4,vu129_4_2,ruby,100 prisoners,Game Development,Puzzles,T4,Different Language,0.93932503,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_1_1_1,clr9q_1_1,python,15 puzzle game,Game Development,Puzzles,T1,Identical Clone,1.0,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_1_1_2,clr9q_1_1,python,15 puzzle game,Game Development,Puzzles,T1,Identical Clone,0.98731136,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_1_1_3,clr9q_1_1,python,15 puzzle game,Game Development,Puzzles,T1,Identical Clone,0.9777062,inmof,python,2048,Game Development,Puzzles
+clr9q_1_1_4,clr9q_1_1,python,15 puzzle game,Game Development,Puzzles,T1,Identical Clone,0.9287743,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_1_2_1,clr9q_1_2,python,15 puzzle game,Game Development,Puzzles,T1,Different Whitespaces,0.9908627,inmof,python,2048,Game Development,Puzzles
+clr9q_1_2_2,clr9q_1_2,python,15 puzzle game,Game Development,Puzzles,T1,Different Whitespaces,0.98678213,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_1_2_3,clr9q_1_2,python,15 puzzle game,Game Development,Puzzles,T1,Different Whitespaces,0.9634922,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_1_2_4,clr9q_1_2,python,15 puzzle game,Game Development,Puzzles,T1,Different Whitespaces,0.93665296,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_1_3_1,clr9q_1_3,python,15 puzzle game,Game Development,Puzzles,T1,Different Comments,0.9996972,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_1_3_2,clr9q_1_3,python,15 puzzle game,Game Development,Puzzles,T1,Different Comments,0.9884629,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_1_3_3,clr9q_1_3,python,15 puzzle game,Game Development,Puzzles,T1,Different Comments,0.975467,inmof,python,2048,Game Development,Puzzles
+clr9q_1_3_4,clr9q_1_3,python,15 puzzle game,Game Development,Puzzles,T1,Different Comments,0.9282733,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_1_4_1,clr9q_1_4,python,15 puzzle game,Game Development,Puzzles,T1,Different Formatting,0.9998832,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_1_4_2,clr9q_1_4,python,15 puzzle game,Game Development,Puzzles,T1,Different Formatting,0.9870528,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_1_4_3,clr9q_1_4,python,15 puzzle game,Game Development,Puzzles,T1,Different Formatting,0.9776765,inmof,python,2048,Game Development,Puzzles
+clr9q_1_4_4,clr9q_1_4,python,15 puzzle game,Game Development,Puzzles,T1,Different Formatting,0.9295955,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_2_1_1,clr9q_2_1,python,15 puzzle game,Game Development,Puzzles,T2,Different Variable Names,0.9993845,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_2_1_2,clr9q_2_1,python,15 puzzle game,Game Development,Puzzles,T2,Different Variable Names,0.98765993,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_2_1_3,clr9q_2_1,python,15 puzzle game,Game Development,Puzzles,T2,Different Variable Names,0.97731435,inmof,python,2048,Game Development,Puzzles
+clr9q_2_1_4,clr9q_2_1,python,15 puzzle game,Game Development,Puzzles,T2,Different Variable Names,0.92854524,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_2_2_1,clr9q_2_2,python,15 puzzle game,Game Development,Puzzles,T2,Different Data Types,0.9997375,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_2_2_2,clr9q_2_2,python,15 puzzle game,Game Development,Puzzles,T2,Different Data Types,0.98811543,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_2_2_3,clr9q_2_2,python,15 puzzle game,Game Development,Puzzles,T2,Different Data Types,0.97593176,inmof,python,2048,Game Development,Puzzles
+clr9q_2_2_4,clr9q_2_2,python,15 puzzle game,Game Development,Puzzles,T2,Different Data Types,0.9276359,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_2_3_1,clr9q_2_3,python,15 puzzle game,Game Development,Puzzles,T2,Different Function Names,0.9996934,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_2_3_2,clr9q_2_3,python,15 puzzle game,Game Development,Puzzles,T2,Different Function Names,0.9882514,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_2_3_3,clr9q_2_3,python,15 puzzle game,Game Development,Puzzles,T2,Different Function Names,0.9757842,inmof,python,2048,Game Development,Puzzles
+clr9q_2_3_4,clr9q_2_3,python,15 puzzle game,Game Development,Puzzles,T2,Different Function Names,0.9287196,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_3_1_1,clr9q_3_1,python,15 puzzle game,Game Development,Puzzles,T3,Added Statements,0.99970347,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_3_1_2,clr9q_3_1,python,15 puzzle game,Game Development,Puzzles,T3,Added Statements,0.9884945,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_3_1_3,clr9q_3_1,python,15 puzzle game,Game Development,Puzzles,T3,Added Statements,0.97530735,inmof,python,2048,Game Development,Puzzles
+clr9q_3_1_4,clr9q_3_1,python,15 puzzle game,Game Development,Puzzles,T3,Added Statements,0.92824763,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_3_2_1,clr9q_3_2,python,15 puzzle game,Game Development,Puzzles,T3,Removed Statements,0.99890006,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_3_2_2,clr9q_3_2,python,15 puzzle game,Game Development,Puzzles,T3,Removed Statements,0.9834987,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_3_2_3,clr9q_3_2,python,15 puzzle game,Game Development,Puzzles,T3,Removed Statements,0.9796131,inmof,python,2048,Game Development,Puzzles
+clr9q_3_2_4,clr9q_3_2,python,15 puzzle game,Game Development,Puzzles,T3,Removed Statements,0.93112886,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_3_3_1,clr9q_3_3,python,15 puzzle game,Game Development,Puzzles,T3,Reordered Statements,0.99664843,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_3_3_2,clr9q_3_3,python,15 puzzle game,Game Development,Puzzles,T3,Reordered Statements,0.9901962,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_3_3_3,clr9q_3_3,python,15 puzzle game,Game Development,Puzzles,T3,Reordered Statements,0.96349967,inmof,python,2048,Game Development,Puzzles
+clr9q_3_3_4,clr9q_3_3,python,15 puzzle game,Game Development,Puzzles,T3,Reordered Statements,0.92464757,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_3_4_1,clr9q_3_4,python,15 puzzle game,Game Development,Puzzles,T3,Control Flow Modifications,0.9953705,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_3_4_2,clr9q_3_4,python,15 puzzle game,Game Development,Puzzles,T3,Control Flow Modifications,0.9907289,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_3_4_3,clr9q_3_4,python,15 puzzle game,Game Development,Puzzles,T3,Control Flow Modifications,0.97895646,inmof,python,2048,Game Development,Puzzles
+clr9q_3_4_4,clr9q_3_4,python,15 puzzle game,Game Development,Puzzles,T3,Control Flow Modifications,0.93331504,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_4_1_1,clr9q_4_1,python,15 puzzle game,Game Development,Puzzles,T4,Same Language,0.99445397,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_4_1_2,clr9q_4_1,python,15 puzzle game,Game Development,Puzzles,T4,Same Language,0.989104,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_4_1_3,clr9q_4_1,python,15 puzzle game,Game Development,Puzzles,T4,Same Language,0.9559649,inmof,python,2048,Game Development,Puzzles
+clr9q_4_1_4,clr9q_4_1,python,15 puzzle game,Game Development,Puzzles,T4,Same Language,0.91833353,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_4_2_1,clr9q_4_2,go,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.96140146,inmof,python,2048,Game Development,Puzzles
+clr9q_4_2_2,clr9q_4_2,go,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.93409806,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_4_2_3,clr9q_4_2,go,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.91927165,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_4_2_4,clr9q_4_2,go,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.90483856,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_4_2_1,clr9q_4_2,java,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.97947675,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_4_2_2,clr9q_4_2,java,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9699888,inmof,python,2048,Game Development,Puzzles
+clr9q_4_2_3,clr9q_4_2,java,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9676274,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_4_2_4,clr9q_4_2,java,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9270222,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_4_2_1,clr9q_4_2,javascript,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.98748034,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_4_2_2,clr9q_4_2,javascript,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9829269,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_4_2_3,clr9q_4_2,javascript,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9714515,inmof,python,2048,Game Development,Puzzles
+clr9q_4_2_4,clr9q_4_2,javascript,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9204069,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_4_2_1,clr9q_4_2,php,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9804567,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_4_2_2,clr9q_4_2,php,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9796445,inmof,python,2048,Game Development,Puzzles
+clr9q_4_2_3,clr9q_4_2,php,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9633892,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_4_2_4,clr9q_4_2,php,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.92246723,z4tt,python,100 doors,Game Development,Puzzles
+clr9q_4_2_1,clr9q_4_2,ruby,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9786563,inmof,python,2048,Game Development,Puzzles
+clr9q_4_2_2,clr9q_4_2,ruby,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.97744185,clr9q,python,15 puzzle game,Game Development,Puzzles
+clr9q_4_2_3,clr9q_4_2,ruby,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.9687066,vu129,python,100 prisoners,Game Development,Puzzles
+clr9q_4_2_4,clr9q_4_2,ruby,15 puzzle game,Game Development,Puzzles,T4,Different Language,0.93059325,z4tt,python,100 doors,Game Development,Puzzles
+inmof_1_1_1,inmof_1_1,python,2048,Game Development,Puzzles,T1,Identical Clone,1.0,inmof,python,2048,Game Development,Puzzles
+inmof_1_1_2,inmof_1_1,python,2048,Game Development,Puzzles,T1,Identical Clone,0.9777062,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_1_1_3,inmof_1_1,python,2048,Game Development,Puzzles,T1,Identical Clone,0.95824844,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_1_1_4,inmof_1_1,python,2048,Game Development,Puzzles,T1,Identical Clone,0.92812777,z4tt,python,100 doors,Game Development,Puzzles
+inmof_1_2_1,inmof_1_2,python,2048,Game Development,Puzzles,T1,Different Whitespaces,0.9929432,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_1_2_2,inmof_1_2,python,2048,Game Development,Puzzles,T1,Different Whitespaces,0.98872447,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_1_2_3,inmof_1_2,python,2048,Game Development,Puzzles,T1,Different Whitespaces,0.98282933,inmof,python,2048,Game Development,Puzzles
+inmof_1_2_4,inmof_1_2,python,2048,Game Development,Puzzles,T1,Different Whitespaces,0.93386626,z4tt,python,100 doors,Game Development,Puzzles
+inmof_1_3_1,inmof_1_3,python,2048,Game Development,Puzzles,T1,Different Comments,0.99992794,inmof,python,2048,Game Development,Puzzles
+inmof_1_3_2,inmof_1_3,python,2048,Game Development,Puzzles,T1,Different Comments,0.9772788,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_1_3_3,inmof_1_3,python,2048,Game Development,Puzzles,T1,Different Comments,0.9576292,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_1_3_4,inmof_1_3,python,2048,Game Development,Puzzles,T1,Different Comments,0.9277955,z4tt,python,100 doors,Game Development,Puzzles
+inmof_1_4_1,inmof_1_4,python,2048,Game Development,Puzzles,T1,Different Formatting,0.992921,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_1_4_2,inmof_1_4,python,2048,Game Development,Puzzles,T1,Different Formatting,0.9887066,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_1_4_3,inmof_1_4,python,2048,Game Development,Puzzles,T1,Different Formatting,0.9828172,inmof,python,2048,Game Development,Puzzles
+inmof_1_4_4,inmof_1_4,python,2048,Game Development,Puzzles,T1,Different Formatting,0.9337703,z4tt,python,100 doors,Game Development,Puzzles
+inmof_2_1_1,inmof_2_1,python,2048,Game Development,Puzzles,T2,Different Variable Names,0.99946797,inmof,python,2048,Game Development,Puzzles
+inmof_2_1_2,inmof_2_1,python,2048,Game Development,Puzzles,T2,Different Variable Names,0.9786111,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_2_1_3,inmof_2_1,python,2048,Game Development,Puzzles,T2,Different Variable Names,0.95898557,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_2_1_4,inmof_2_1,python,2048,Game Development,Puzzles,T2,Different Variable Names,0.9268397,z4tt,python,100 doors,Game Development,Puzzles
+inmof_2_2_1,inmof_2_2,python,2048,Game Development,Puzzles,T2,Different Data Types,0.99999547,inmof,python,2048,Game Development,Puzzles
+inmof_2_2_2,inmof_2_2,python,2048,Game Development,Puzzles,T2,Different Data Types,0.97776854,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_2_2_3,inmof_2_2,python,2048,Game Development,Puzzles,T2,Different Data Types,0.9582453,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_2_2_4,inmof_2_2,python,2048,Game Development,Puzzles,T2,Different Data Types,0.92810106,z4tt,python,100 doors,Game Development,Puzzles
+inmof_2_3_1,inmof_2_3,python,2048,Game Development,Puzzles,T2,Different Function Names,0.9998859,inmof,python,2048,Game Development,Puzzles
+inmof_2_3_2,inmof_2_3,python,2048,Game Development,Puzzles,T2,Different Function Names,0.97775495,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_2_3_3,inmof_2_3,python,2048,Game Development,Puzzles,T2,Different Function Names,0.9586942,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_2_3_4,inmof_2_3,python,2048,Game Development,Puzzles,T2,Different Function Names,0.92842627,z4tt,python,100 doors,Game Development,Puzzles
+inmof_3_1_1,inmof_3_1,python,2048,Game Development,Puzzles,T3,Added Statements,0.9998388,inmof,python,2048,Game Development,Puzzles
+inmof_3_1_2,inmof_3_1,python,2048,Game Development,Puzzles,T3,Added Statements,0.97808707,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_3_1_3,inmof_3_1,python,2048,Game Development,Puzzles,T3,Added Statements,0.9583411,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_3_1_4,inmof_3_1,python,2048,Game Development,Puzzles,T3,Added Statements,0.9269395,z4tt,python,100 doors,Game Development,Puzzles
+inmof_3_2_1,inmof_3_2,python,2048,Game Development,Puzzles,T3,Removed Statements,0.9997618,inmof,python,2048,Game Development,Puzzles
+inmof_3_2_2,inmof_3_2,python,2048,Game Development,Puzzles,T3,Removed Statements,0.9789154,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_3_2_3,inmof_3_2,python,2048,Game Development,Puzzles,T3,Removed Statements,0.9595263,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_3_2_4,inmof_3_2,python,2048,Game Development,Puzzles,T3,Removed Statements,0.92838144,z4tt,python,100 doors,Game Development,Puzzles
+inmof_3_3_1,inmof_3_3,python,2048,Game Development,Puzzles,T3,Reordered Statements,0.9999131,inmof,python,2048,Game Development,Puzzles
+inmof_3_3_2,inmof_3_3,python,2048,Game Development,Puzzles,T3,Reordered Statements,0.9776637,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_3_3_3,inmof_3_3,python,2048,Game Development,Puzzles,T3,Reordered Statements,0.95837665,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_3_3_4,inmof_3_3,python,2048,Game Development,Puzzles,T3,Reordered Statements,0.92738026,z4tt,python,100 doors,Game Development,Puzzles
+inmof_3_4_1,inmof_3_4,python,2048,Game Development,Puzzles,T3,Control Flow Modifications,0.9932562,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_3_4_2,inmof_3_4,python,2048,Game Development,Puzzles,T3,Control Flow Modifications,0.9881218,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_3_4_3,inmof_3_4,python,2048,Game Development,Puzzles,T3,Control Flow Modifications,0.9829213,inmof,python,2048,Game Development,Puzzles
+inmof_3_4_4,inmof_3_4,python,2048,Game Development,Puzzles,T3,Control Flow Modifications,0.934092,z4tt,python,100 doors,Game Development,Puzzles
+inmof_4_1_1,inmof_4_1,python,2048,Game Development,Puzzles,T4,Same Language,0.9918299,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_4_1_2,inmof_4_1,python,2048,Game Development,Puzzles,T4,Same Language,0.98594624,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_4_1_3,inmof_4_1,python,2048,Game Development,Puzzles,T4,Same Language,0.9817948,inmof,python,2048,Game Development,Puzzles
+inmof_4_1_4,inmof_4_1,python,2048,Game Development,Puzzles,T4,Same Language,0.93750787,z4tt,python,100 doors,Game Development,Puzzles
+inmof_4_2_1,inmof_4_2,go,2048,Game Development,Puzzles,T4,Different Language,0.96517235,inmof,python,2048,Game Development,Puzzles
+inmof_4_2_2,inmof_4_2,go,2048,Game Development,Puzzles,T4,Different Language,0.93221474,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_4_2_3,inmof_4_2,go,2048,Game Development,Puzzles,T4,Different Language,0.91620916,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_4_2_4,inmof_4_2,go,2048,Game Development,Puzzles,T4,Different Language,0.8940617,z4tt,python,100 doors,Game Development,Puzzles
+inmof_4_2_1,inmof_4_2,java,2048,Game Development,Puzzles,T4,Different Language,0.98314023,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_4_2_2,inmof_4_2,java,2048,Game Development,Puzzles,T4,Different Language,0.97538686,inmof,python,2048,Game Development,Puzzles
+inmof_4_2_3,inmof_4_2,java,2048,Game Development,Puzzles,T4,Different Language,0.96962214,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_4_2_4,inmof_4_2,java,2048,Game Development,Puzzles,T4,Different Language,0.92330265,z4tt,python,100 doors,Game Development,Puzzles
+inmof_4_2_1,inmof_4_2,javascript,2048,Game Development,Puzzles,T4,Different Language,0.9869075,inmof,python,2048,Game Development,Puzzles
+inmof_4_2_2,inmof_4_2,javascript,2048,Game Development,Puzzles,T4,Different Language,0.9701047,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_4_2_3,inmof_4_2,javascript,2048,Game Development,Puzzles,T4,Different Language,0.9465685,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_4_2_4,inmof_4_2,javascript,2048,Game Development,Puzzles,T4,Different Language,0.92625856,z4tt,python,100 doors,Game Development,Puzzles
+inmof_4_2_1,inmof_4_2,php,2048,Game Development,Puzzles,T4,Different Language,0.98858404,inmof,python,2048,Game Development,Puzzles
+inmof_4_2_2,inmof_4_2,php,2048,Game Development,Puzzles,T4,Different Language,0.9647176,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_4_2_3,inmof_4_2,php,2048,Game Development,Puzzles,T4,Different Language,0.9421753,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_4_2_4,inmof_4_2,php,2048,Game Development,Puzzles,T4,Different Language,0.9166975,z4tt,python,100 doors,Game Development,Puzzles
+inmof_4_2_1,inmof_4_2,ruby,2048,Game Development,Puzzles,T4,Different Language,0.98346066,clr9q,python,15 puzzle game,Game Development,Puzzles
+inmof_4_2_2,inmof_4_2,ruby,2048,Game Development,Puzzles,T4,Different Language,0.9801808,inmof,python,2048,Game Development,Puzzles
+inmof_4_2_3,inmof_4_2,ruby,2048,Game Development,Puzzles,T4,Different Language,0.9752753,vu129,python,100 prisoners,Game Development,Puzzles
+inmof_4_2_4,inmof_4_2,ruby,2048,Game Development,Puzzles,T4,Different Language,0.9355804,z4tt,python,100 doors,Game Development,Puzzles

@@ -43,7 +43,25 @@ MODEL_NAME = "microsoft/codebert-base"              # (Embedding size - 768     
 
 # Qdrant settings
 #----------------------------------------------------------------------------------------
-QDRANT_HOST = os.getenv("QDRANT_HOST", "localhost")
+def get_qdrant_host():
+    """
+    Determine the correct Qdrant host:
+    - Use the `QDRANT_HOST` environment variable if provided.
+    - Default to `localhost` when running locally.
+    - Default to `qdrant` when running inside Docker.
+    """
+    # Check if running inside a Docker container
+    try:
+        with open('/proc/1/cgroup', 'rt') as f:
+            if 'docker' in f.read():
+                return os.getenv("QDRANT_HOST", "qdrant")  # Default for Docker
+    except FileNotFoundError:
+        pass
+    return os.getenv("QDRANT_HOST", "localhost")  # Default for local runs
+
+
+# Qdrant settings
+QDRANT_HOST = get_qdrant_host()
 QDRANT_PORT = int(os.getenv("QDRANT_PORT", 6333))
 QDRANT_MAX_EMBEDDING_SIZE = 65536   # Qdrants' Maximum Storable Embedding Size
 BENCHMARK_COLLECTION_NAME = "originals_embeddings"

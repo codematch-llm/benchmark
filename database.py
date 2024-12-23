@@ -9,6 +9,7 @@ from utils import generate_code_embedding_generic
 import config
 import logging
 
+
 def initialize_client(logger):
     try:
         client = QdrantClient(url=f"http://{config.QDRANT_HOST}:{config.QDRANT_PORT}")
@@ -19,7 +20,6 @@ def initialize_client(logger):
         logger.error(exp)
         raise Exception(exp)
         
-
 
 def init_vector_db(client, embedding, collection_name, index, id, metadata):
     """

@@ -3,11 +3,14 @@ import config
 import pandas as pd
 from datetime import datetime
 from collections import defaultdict
-from utils import generate_code_embedding_generic #, generate_code_embedding
+from utils import generate_code_embedding_generic
 
 from tqdm import tqdm
 
 from qdrant_client.http.models import Filter, FieldCondition, MatchAny
+
+import logging
+
 
 class Metric:
     def __init__(self, name):
@@ -78,6 +81,7 @@ class MetricsCollection:
                     rows.append({"Metric": metric_name, "Type": clone_type, "Subtype": subtype, "Value": value})
         return pd.DataFrame(rows)
     
+
     def to_dataframe(self):
         # Initialize a nested dictionary to hold the data
         data = {}
@@ -121,6 +125,7 @@ def calculate_tp_tn_fp_fn(filtered_df, similarity_threshold):
     tn = len(filtered_df[(filtered_df['similarity_score'] < similarity_threshold) & (filtered_df['clone_type'] == 'Non-Clone')])
     fn = len(filtered_df[(filtered_df['similarity_score'] < similarity_threshold) & (filtered_df['clone_type'] != 'Non-Clone')])
     return tp, tn, fp, fn
+
 
 def calculate_metrics(filtered_df, metrics_collection, similarity_threshold, overall=None, clone_type=None, subtype=None, domain=None):
     """
@@ -178,7 +183,7 @@ def calculate_recall(filtered_df, similarity_threshold):
 def calculate_f1(precision, recall):
     return 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
 
-def evaluate_results(results_df, model_name, similarity_threshold):
+def evaluate_direct_comparison_results(direct_comparison_logger, results_df, model_name, similarity_threshold):
     """
     Evaluates and calculates various metrics based on similarity scores between clones and base codes,
     categorizing the results by overall, clone type, clone sub-type, and domain. The results are saved to a CSV file.
@@ -252,6 +257,7 @@ def evaluate_results(results_df, model_name, similarity_threshold):
     # Save the DataFrame to a CSV file in the Output directory
     output_filename = os.path.join(output_dir, f"{model_name}_direct_clone_comparison_evaluation_{current_time}.csv")
     metrics_df.to_csv(output_filename, index=False)
+    direct_comparison_logger.info(f"Evaluation saved to: {output_filename}")
     
     return metrics_df
 
@@ -269,11 +275,10 @@ def direct_clone_comparison_test(client, test_code_csv, model, tokenizer, model_
         similarity_threshold (float): The threshold for determining a "pass" on similarity.
     """
     try:
+        direct_comparison_logger = logging.getLogger("benchmark.direct_comparison")
         tests_df = pd.read_csv(test_code_csv)
 
         results = []
-
-        # client = QdrantClient(url="http://localhost:6333")
 
         for _, row in tqdm(tests_df.iterrows(), desc="Running Direct Clone Comparison...", total=len(tests_df)):
             clone_code_id = row['clone_code_id']
@@ -288,7 +293,7 @@ def direct_clone_comparison_test(client, test_code_csv, model, tokenizer, model_
 
             
             # embedding = generate_code_embedding(code, model, tokenizer)
-            embedding = generate_code_embedding_generic(code, model, tokenizer)
+            embedding = generate_code_embedding_generic(direct_comparison_logger, code, model, tokenizer)
 
             if embedding is not None:
                 
@@ -328,9 +333,9 @@ def direct_clone_comparison_test(client, test_code_csv, model, tokenizer, model_
                     # result_subdomain = "Unknown"
 
 
-                print(f"Clone Code ID: {clone_code_id}, Base Code ID: {base_code_id}, "
-                          f"Clone Type: {clone_type}, Clone Sub-Type: {clone_sub_type}, "
-                          f"similarity_score: {similarity_score}")
+                direct_comparison_logger.info(f"Clone Code ID: {clone_code_id}, Base Code ID: {base_code_id}, "
+                            f"Clone Type: {clone_type}, Clone Sub-Type: {clone_sub_type}, "
+                            f"similarity_score: {similarity_score}")
                 
 
                 results.append({
@@ -352,7 +357,6 @@ def direct_clone_comparison_test(client, test_code_csv, model, tokenizer, model_
         results_df = results_df.loc[:, (results_df != 'Unknown').any(axis=0)]
 
         # Get the current datetime for the filename
-        # current_time = datetime.now().strftime("%Y%m%d_%H%M%S")
         current_time = datetime.now().strftime("%d.%m.%Y_%H-%M-%S")
 
         # Ensure the Output directory exists
@@ -368,12 +372,15 @@ def direct_clone_comparison_test(client, test_code_csv, model, tokenizer, model_
         # Save results to a CSV file in the Output directory
         output_filename = os.path.join(output_dir, f"{model_name}_direct_clone_comparison_scores_{current_time}.csv")
         results_df.to_csv(output_filename, index=False)
+        direct_comparison_logger.info(f"Results saved to: {output_filename}")
 
         # Evaluate results and update metrics
-        evaluate_results(results_df, model_name, similarity_threshold)
+        evaluate_direct_comparison_results(direct_comparison_logger, results_df, model_name, similarity_threshold)
 
     except Exception as e:
-        raise Exception(f"Error running tests: {e}")
+        exp = f"Error running tests: {e}"
+        direct_comparison_logger.error(exp)
+        raise Exception(exp)
     
 
 
@@ -390,6 +397,7 @@ def global_clone_search(client, test_code_csv, model, tokenizer, model_name, sim
         similarity_threshold (float): The threshold for determining a "pass" on similarity.
     """
     try:
+        global_search_logger = logging.getLogger("benchmark.global_search")
         tests_df = pd.read_csv(test_code_csv)
 
         results = []
@@ -406,7 +414,7 @@ def global_clone_search(client, test_code_csv, model, tokenizer, model_name, sim
             code = row['code']
 
             # embedding = generate_code_embedding(code, model, tokenizer)
-            embedding = generate_code_embedding_generic(code, model, tokenizer)
+            embedding = generate_code_embedding_generic(global_search_logger, code, model, tokenizer)
 
             if embedding is not None:
 
@@ -431,9 +439,10 @@ def global_clone_search(client, test_code_csv, model, tokenizer, model_name, sim
 
                         similarity_score = result.score
 
-                        print(f"Clone Code ID: {clone_code_id}, Result ID: {result_id}, "
-                              f"Clone Type: {clone_type}, Clone Sub-Type: {clone_sub_type}, "
-                              f"similarity_score: {similarity_score}")
+
+                        global_search_logger.info(f"Clone Code ID: {clone_code_id}, Result ID: {result_id}, "
+                                  f"Clone Type: {clone_type}, Clone Sub-Type: {clone_sub_type}, "
+                                  f"similarity_score: {similarity_score}")
 
                         results.append({
                             "test_id": test_id,
@@ -454,7 +463,7 @@ def global_clone_search(client, test_code_csv, model, tokenizer, model_name, sim
                         })
 
                 else:
-                    print(f"No results found for Clone Code ID: {clone_code_id}")
+                    global_search_logger.info(f"No results found for Clone Code ID: {clone_code_id}")
 
         # Convert results to DataFrame
         results_df = pd.DataFrame(results)
@@ -478,15 +487,18 @@ def global_clone_search(client, test_code_csv, model, tokenizer, model_name, sim
         # Save results to a CSV file in the Output directory
         output_filename = os.path.join(output_dir, f"{model_name}_global_clone_search_scores_{current_time}.csv")
         results_df.to_csv(output_filename, index=False)
+        global_search_logger.info(f"Results saved to: {output_filename}")
 
         # Evaluate results and update metrics
-        evaluate_global_search_results(results_df, model_name)
+        evaluate_global_search_results(global_search_logger, results_df, model_name)
 
     except Exception as e:
-        raise Exception(f"Error running tests: {e}")
+        exp = f"Error running tests: {e}"
+        global_search_logger.error(exp)
+        raise Exception(exp)
 
 
-def evaluate_global_search_results(results_df, model_name):
+def evaluate_global_search_results(global_search_logger, results_df, model_name):
     """
     Evaluate the results of global clone search and update metrics.
 
@@ -547,6 +559,7 @@ def evaluate_global_search_results(results_df, model_name):
     # Save the DataFrame to a CSV file in the Output directory
     output_filename = os.path.join(output_dir, f"{model_name}_global_clone_search_evaluation_{current_time}.csv")
     metrics_df.to_csv(output_filename, index=False)
+    global_search_logger.info(f"Evaluation saved to: {output_filename}")
 
     return metrics_df
 

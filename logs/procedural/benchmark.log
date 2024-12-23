@@ -1,0 +1,21 @@
+{"level": "INFO", "message": "==================================================", "timestamp": "2024-12-22T16:15:55.326203+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 17}
+{"level": "INFO", "message": "New Run Started | Run ID: beb91516-19c2-4734-9438-b777749da52d", "timestamp": "2024-12-22T16:15:55.328251+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 18}
+{"level": "INFO", "message": "==================================================", "timestamp": "2024-12-22T16:15:55.328251+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 19}
+{"level": "INFO", "message": "Benchmarking process started", "timestamp": "2024-12-22T16:15:55.328251+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 21}
+{"level": "INFO", "message": "Number of CPUs: 16", "timestamp": "2024-12-22T16:15:55.328251+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 26}
+{"level": "INFO", "message": "Using model: microsoft/codebert-base", "timestamp": "2024-12-22T16:15:55.328251+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 29}
+{"level": "INFO", "message": "Successfully loaded model and tokenizer: microsoft/codebert-base", "timestamp": "2024-12-22T16:15:56.723773+00:00", "logger": "benchmark", "module": "utils", "function": "load_huggingface_model", "line": 102}
+{"level": "INFO", "message": "Tokenizer name: microsoft/codebert-base", "timestamp": "2024-12-22T16:15:56.723773+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 32}
+{"level": "INFO", "message": "Tokenizer class: RobertaTokenizerFast", "timestamp": "2024-12-22T16:15:56.723773+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 33}
+{"level": "INFO", "message": "Embedding size for model 'microsoft/codebert-base': 768", "timestamp": "2024-12-22T16:15:56.772813+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 37}
+{"level": "INFO", "message": "Maximum token input size: 514", "timestamp": "2024-12-22T16:15:56.772813+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 38}
+{"level": "INFO", "message": "Qdrant server started successfully.", "timestamp": "2024-12-22T16:15:56.780269+00:00", "logger": "benchmark", "module": "utils", "function": "start_qdrant_server", "line": 19}
+{"level": "INFO", "message": "Qdrant client initialized successfully.", "timestamp": "2024-12-22T16:15:56.796677+00:00", "logger": "benchmark", "module": "database", "function": "initialize_client", "line": 15}
+{"level": "INFO", "message": "Initializing the vector database.", "timestamp": "2024-12-22T16:15:56.796677+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 45}
+{"level": "ERROR", "message": "This is a test log inside handle_vectordb_creation erorrrrrr.", "timestamp": "2024-12-22T16:15:56.797679+00:00", "logger": "benchmark.vectordb", "module": "database", "function": "handle_vectordb_creation", "line": 77}
+{"level": "INFO", "message": "Running tests:", "timestamp": "2024-12-22T16:18:33.348352+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 55}
+{"level": "INFO", "message": "1. Direct Clone Comparison Test", "timestamp": "2024-12-22T16:18:33.348352+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 57}
+{"level": "INFO", "message": "2. Global Clone Search", "timestamp": "2024-12-22T16:58:36.618553+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 60}
+{"level": "INFO", "message": "==================================================", "timestamp": "2024-12-22T17:37:28.228222+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 64}
+{"level": "INFO", "message": "Run ID: beb91516-19c2-4734-9438-b777749da52d | Total time taken: 81.55 minutes", "timestamp": "2024-12-22T17:37:28.228222+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 65}
+{"level": "INFO", "message": "==================================================", "timestamp": "2024-12-22T17:37:28.228222+00:00", "logger": "benchmark", "module": "main", "function": "main", "line": 66}

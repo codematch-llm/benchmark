@@ -4,12 +4,12 @@ import uuid
 import logging
 import multiprocessing
 
-from utils import start_qdrant_server, load_huggingface_model, get_embedding_and_token_size
-from database import initialize_client, handle_vectordb_creation
-from metrics import direct_clone_comparison_test, global_clone_search
+from core.utils import start_qdrant_server, load_huggingface_model, get_embedding_and_token_size
+from core.database import initialize_client, handle_vectordb_creation
+from core.metrics import direct_clone_comparison_test, global_clone_search
 
 # Import the multi-process logging setup
-from mylogger import setup_logging_benchmark_multiprocess
+from core.mylogger import setup_logging_benchmark_multiprocess
 
 
 def run_direct_clone_comparison(benchmark_path, model_name):

@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from datetime import datetime
-from metrics import *  # Importing necessary functions from metrics
+from core.metrics import *  # Importing necessary functions from metrics
 import config  # Importing configuration module
 
 
@@ -99,13 +99,16 @@ def main():
     Main function to evaluate models using the specified configuration.
     Iterates through available models and evaluates their global clone search results.
     """
+
+    global_search_logger = logging.getLogger("benchmark.global_search")
+
     for model_name in config.AVAILABLE_MODELS:
         # Load evaluation scores for the 'global-clone' folder type
         scores_df = get_scores_df(model_name, "global-clone")
         
         # Evaluate global search results if the DataFrame is valid
         if scores_df is not None:
-            evaluate_global_search_results(scores_df, model_name)
+            evaluate_global_search_results(global_search_logger, scores_df, model_name)
 
 
 # Entry point for script execution

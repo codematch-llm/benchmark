@@ -1,12 +1,12 @@
 import config
 import time
-from utils import start_qdrant_server, load_huggingface_model, get_embedding_and_token_size
-from database import initialize_client, handle_vectordb_creation
-from metrics import direct_clone_comparison_test, global_clone_search
+from core.utils import start_qdrant_server, load_huggingface_model, get_embedding_and_token_size
+from core.database import initialize_client, handle_vectordb_creation
+from core.metrics import direct_clone_comparison_test, global_clone_search
 import uuid
 
 import logging
-from mylogger import setup_logging_benchmark
+from core.mylogger import setup_logging_benchmark
 
 def main():
     setup_logging_benchmark()

@@ -3,7 +3,7 @@ import config
 import pandas as pd
 from datetime import datetime
 from collections import defaultdict
-from utils import generate_code_embedding_generic
+from core.utils import generate_code_embedding_generic
 
 from tqdm import tqdm
 

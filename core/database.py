@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 from qdrant_client import QdrantClient, models
 from qdrant_client.http.models import PointStruct
-from utils import generate_code_embedding_generic
+from core.utils import generate_code_embedding_generic
 
 import config
 import logging

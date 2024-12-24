@@ -5,6 +5,7 @@ import logging.config
 import logging.handlers
 import json
 import pathlib
+import os
 
 
 class BenchmarkParentFilter(logging.Filter):
@@ -97,7 +98,8 @@ class MyJSONFormatter(logging.Formatter):
 
 
 def setup_logging_benchmark():
-    config_file = pathlib.Path("logs/logging_configs/benchmark.json")
+    current_path = os.path.dirname(os.path.realpath(__file__))
+    config_file = pathlib.Path(os.path.join(current_path, "../logs/logging_configs/benchmark.json"))
     with open(config_file) as f_in:
         config = json.load(f_in)
 
@@ -128,7 +130,8 @@ def setup_logging_benchmark():
 
 
 def setup_logging_benchmark_multiprocess():
-    config_file = pathlib.Path("logs/logging_configs/benchmark-multiprocess.json")
+    current_path = os.path.dirname(os.path.realpath(__file__))
+    config_file = pathlib.Path(os.path.join(current_path, "../logs/logging_configs/benchmark-multiprocess.json"))
     with open(config_file) as f_in:
         config = json.load(f_in)
 

@@ -6,7 +6,7 @@
             "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
         },
         "json": {
-            "()": "mylogger.MyJSONFormatter",
+            "()": "core.mylogger.MyJSONFormatter",
             "fmt_keys": {
                 "level": "levelname",
                 "message": "message",

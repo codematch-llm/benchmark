@@ -25,6 +25,8 @@ The benchmark runs its evaluations repeatedly on large datasets to ensure the mo
 
 ## Workflow
 
+![Benchmark Workflow](images/becnhmark_workflow.png)
+
 The benchmark follows this general flow:
 
 1. **Load the LLM**: Download and load the chosen Hugging Face LLM and tokenizer locally to this repository if not already available.
@@ -39,10 +41,10 @@ The benchmark follows this general flow:
 
 The following models have been benchmarked in this project:
 
-- **`codebert-base`**
-- **`graphcodebert-base`**
-- **`codet5-base`**
-- **`Qwen2.5-Coder-0.5B`**
+- **`codebert-base`** - [Hugging Face](https://huggingface.co/microsoft/codebert-base)
+- **`graphcodebert-base`** - [Hugging Face](https://huggingface.co/microsoft/graphcodebert-base)
+- **`codet5-base`** - [Hugging Face](https://huggingface.co/Salesforce/codet5-base)
+- **`Qwen2.5-Coder-0.5B`** - [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B)
 - **`Qwen2.5-Coder-0.5B-pe`** (prompt-engineered version)
 
 ---

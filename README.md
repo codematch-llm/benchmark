@@ -107,52 +107,70 @@ The project is designed with modularity in mind, separating core functionalities
 
 ### Prerequisites
 
-1. **System Requirements**:
+#### 1. System Requirements:
+- **Docker**: Installed (if running with Docker).
+- **Python**: Version 3.9 or above (if running locally).
+- **Hardware**: Ensure sufficient RAM and CPU to handle LLM embeddings and Qdrant operations effectively.
 
-   - Docker installed (if running with Docker).
-   - Python 3.9 or above (if running locally).
-   - Sufficient RAM and CPU to load LLMs and process embeddings.
+#### 2. Dependencies:
+- Check the `requirements.txt` file for a list of required Python dependencies.
 
-2. **Dependencies**:
-
-   - See `requirements.txt` for all Python dependencies.
+---
 
 ### Running Locally
 
-1. Clone the repository:
+1. **Clone the Repository**:
    ```bash
    git clone <repo-url>
    cd benchmark
    ```
-2. Install dependencies:
+
+2. **Install Dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
-3. Start Qdrant (required for vector database):
-   ```bash
-   docker run -d --name qdrant -p 6333:6333 -p 6334:6334 qdrant/qdrant
-   ```
-4. Run the benchmark:
+
+3. **Download and Start Qdrant**:
+   - Pull the Qdrant Docker image:
+     ```bash
+     docker pull qdrant/qdrant
+     ```
+   - Start the Qdrant container:
+     ```bash
+     docker run -d --name qdrant -p 6333:6333 -p 6334:6334 qdrant/qdrant
+     ```
+
+4. **Run the Benchmark**:
    ```bash
    python main.py
    ```
 
+---
+
 ### Running with Docker
 
-1. Build the Docker image:
+1. **Build the Docker Image**:
    ```bash
    docker build -t benchmark-image:v1 .
    ```
-2. Start Qdrant in the same network:
-   ```bash
-   docker network create benchmark-network
-   docker run --network benchmark-network --name qdrant -d -p 6333:6333 -p 6334:6334 qdrant/qdrant
-   ```
-3. Run the benchmark container:
+
+2. **Setup and Start Qdrant**:
+   - Pull the Qdrant Docker image:
+     ```bash
+     docker pull qdrant/qdrant
+     ```
+   - Create a Docker network and start Qdrant:
+     ```bash
+     docker network create benchmark-network
+     docker run --network benchmark-network --name qdrant -d -p 6333:6333 -p 6334:6334 qdrant/qdrant
+     ```
+
+3. **Run the Benchmark Container**:
    ```bash
    docker run --network benchmark-network -it --rm benchmark-image:v1
    ```
 
+Let me know if you want this integrated directly into the README!
 ---
 
 ## Notes for Users

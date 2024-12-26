@@ -1,8 +1,6 @@
-# CodeMatch Benchmark
+# CodeMatch Benchmark - How Do We Even Know If It Works?
 
-The Benchmark repository is the first component of the CodeMatch project, focusing on the initial steps of the workflow. These steps form the foundation for evaluating and selecting the best-performing Large Language Model (LLM) for the system. Below is the diagram highlighting the first three components of the workflow:
-
-
+The Benchmark repository is where we start measuring success. It’s all about testing and evaluating Large Language Models (LLMs) to ensure they perform well in detecting code clones. This repository lays the groundwork for the CodeMatch project, helping us identify the best-performing model for the job.
 
 ---
 
@@ -21,11 +19,15 @@ The Benchmark repository is the first component of the CodeMatch project, focusi
 
 ## Introduction
 
-The **benchmark component** of this project is designed to evaluate and identify the best-performing large language model (LLM) for the task of detecting code clones. This benchmark simulates the core functionalities of the final system on a larger scale by:
+The benchmark component is critical for evaluating LLMs on their ability to detect code clones. It replicates the system's key functionalities at scale, ensuring that each model is rigorously tested. The benchmark process involves:
 
-- Generating embeddings for code snippets using various LLMs.
-- Performing two evaluation methods to assess similarity and retrieval effectiveness.
-- Producing evaluation CSVs that provide metrics to help determine the best-performing LLM through manual analysis.
+- Generating embeddings for code snippets.
+- Running two evaluation methods to measure similarity and retrieval accuracy.
+    1. **Direct Clone Comparison Test**: Measuring similarity between pairs of code snippets.
+    2. **Global Clone Search**: Identifying the closest original code snippets from a database for given clones.
+- Producing metrics and results in structured CSVs to analyze model performance.
+
+By focusing on these elements, the benchmark helps determine the best model to integrate into the CodeMatch system.
 
 ---
 
@@ -41,15 +43,6 @@ The **benchmark component** of this project is designed to evaluate and identify
 Out of these three steps, **only the first two are implemented in this repository**:
 - Step 1: Dataset Creation - additional information can be found in the `data` [folder](https://github.com/codematch-llm/benchmark/tree/main/data) in this repository.
 - Step 2: Benchmark Development - we will delve into this here.
-
-### Purpose
-
-The primary goal of the benchmark is to evaluate several LLMs and compare their performance in:
-
-1. **Direct Clone Comparison Test**: Measuring similarity between pairs of code snippets.
-2. **Global Clone Search**: Identifying the closest original code snippets from a database for given clones.
-
-By observing the outputs in the generated CSVs, we can decide which model is best suited for the final production system.
 
 ---
 

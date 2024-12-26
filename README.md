@@ -46,7 +46,7 @@ Out of these three steps, **only the first two are implemented in this repositor
 
 ---
 
-## Workflow
+## Step 2 - Workflow
 
 ![Benchmark Workflow](images/becnhmark_workflow.png)
 

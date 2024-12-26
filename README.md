@@ -66,6 +66,7 @@ The following models have been benchmarked in this project:
 - **`Qwen2.5-Coder-0.5B`** - [Hugging Face](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B)
 - **`Qwen2.5-Coder-0.5B-pe`** (prompt-engineered version)
 
+to choose the desired model go to `config.py` and uncomment the model name.
 ---
 
 ## Additional Key Features

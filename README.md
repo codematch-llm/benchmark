@@ -34,13 +34,25 @@ By observing the outputs in the generated CSVs, we can decide which model is bes
 
 ![Benchmark Workflow](images/becnhmark_workflow.png)
 
-The benchmark follows this general flow:
+### Workflow Steps in Benchmark
 
-1. **Load the LLM**: Download and load the chosen Hugging Face LLM and tokenizer locally to this repository if not already available.
-2. **Initialize Vector Database**: Populate a Qdrant vector database with embeddings of original code snippets.
-3. **Run Evaluation Methods**: Perform the two evaluation methods on benchmark test data.
-4. **Generate CSV Outputs**: Create CSV files containing metrics for each evaluation method, organized in the `output` folder. Each model has a dedicated subfolder, and within it, results for each method are separated.
-5. **Log Execution Details**: Log the entire execution process for debugging and analysis.
+**a. Evaluation Datasets**: Two evaluation datasets generated in Step 1 (documented in the `data` folder) are used along with the selected LLM. This setup replicates the final system's workflow to benchmark its performance.
+
+**b-c. Embedding Original Code**: Each original code snippet in the `original_code_benchmark` dataset is embedded using the selected LLM. The embeddings are stored in a dedicated collection within the vector database (Qdrant).
+
+**d. Running the System for Evaluation**: With the embeddings of the original code stored, the system is "run" using the selected LLM model to assess its performance against the test dataset.
+
+Before moving to Steps **e** and **f**, note that these represent the two evaluation methods, each producing two outputs:
+   - **Scores**: The system's raw output for the given method.
+   - **Evaluation**: Performance metrics based on specific criteria for the method.
+
+These files are stored in the `output` folder, with separate subfolders created for each LLM model tested.
+
+**e. Direct Clone Comparison**: This method directly compares each test code embedding to its corresponding original embedding in the vector database. It evaluates the system's ability to accurately identify clone relationships within known pairs, generating similarity scores and evaluations.
+
+**f. Global Clone Search**: In this method, each test code embedding is searched against the entire vector database. This approach assesses the system's ability to retrieve the most similar code snippets globally. Similarity scores and corresponding evaluations are recorded to analyze performance.
+
+
 
 ---
 

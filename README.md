@@ -8,12 +8,13 @@ The Benchmark repository is where we start measuring success. It’s all about t
 
 1. [Introduction](#introduction)
 2. [Workflow Steps](#workflow-steps-in-benchmark)
-3. [Evaluated Models](#evaluated-models)
-4. [Folder Structure](#folder-structure)
-5. [Additional Key Features](#additional-key-features)
-6. [Modular Design](#modular-design)
-7. [Reproducing the Benchmark](#reproducing-the-benchmark)
-8. [Notes for Users](#notes-for-users)
+3. [Step 2 - Workflow](#step2-workflow)
+4. [Evaluated Models](#evaluated-models)
+5. [Folder Structure](#folder-structure)
+6. [Additional Key Features](#additional-key-features)
+7. [Modular Design](#modular-design)
+8. [Reproducing the Benchmark](#reproducing-the-benchmark)
+9. [Notes for Users](#notes-for-users)
 
 ---
 

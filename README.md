@@ -56,7 +56,7 @@ The following models have been benchmarked in this project:
 
 ---
 
-## Key Features
+## Additional Key Features
 
 1. **Logging**:
    - Logs are added throughout the project to capture progress, errors, and important metadata.
@@ -76,13 +76,13 @@ The project is designed with modularity in mind, separating core functionalities
    - Handles configuration settings such as file paths, available models, and Qdrant settings.
    - Dynamically determines whether the project is running locally or in Docker to set the appropriate Qdrant host.
 
-2. **`utils.py`**:
+2. **`core/utils.py`**:
    - Provides utility functions for tasks like starting the Qdrant server, loading models, and generating embeddings.
 
-3. **`database.py`**:
+3. **`core/database.py`**:
    - Manages interactions with the Qdrant vector database, including initializing the client, creating collections, and populating the database with embeddings and metadata.
 
-4. **`metrics.py`**:
+4. **`core/metrics.py`**:
    - Implements the two evaluation methods: direct clone comparison and global clone search, calculating similarity scores and generating results.
 
 5. **`main.py`**:

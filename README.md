@@ -34,6 +34,7 @@ By focusing on these elements, the benchmark helps determine the best model to i
 
 ## Workflow Steps in Benchmark
 <img src="https://github.com/user-attachments/assets/40727442-eb19-47d3-83cd-fd44c774855c" alt="Workflow" width="300">
+<br><br>
 
 1. **Finding/Creating Datasets**: The first step involves gathering or creating datasets tailored for evaluating LLMs. These datasets consist of original code snippets and their clones, covering various programming languages and clone types (e.g., exact, renamed, semantic).
 2. **Developing a Benchmark Mechanism**: This step focuses on evaluating multiple LLMs using the created datasets to determine their ability to detect code clones. It involves a detailed scoring mechanism based on similarity metrics.
@@ -48,8 +49,7 @@ Out of these three steps, **only the first two are implemented in this repositor
 ## Step 2 - Workflow
 
 ![Benchmark Workflow](images/becnhmark_workflow.png)
-
-### Workflow Steps in Benchmark
+<br><br>
 
 **a. Evaluation Datasets**: Two evaluation datasets generated in Step 1 (documented in the `data` folder) are used along with the selected LLM. This setup replicates the final system's workflow to benchmark its performance.
 

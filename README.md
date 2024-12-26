@@ -49,7 +49,7 @@ Out of these three steps, **only the first two are implemented in this repositor
 ## Step 2 - Workflow
 
 ![Benchmark Workflow](images/becnhmark_workflow.png)
-<br><br>
+<br>
 
 **a. Evaluation Datasets**: Two evaluation datasets generated in Step 1 (documented in the `data` folder) are used along with the selected LLM. This setup replicates the final system's workflow to benchmark its performance.
 

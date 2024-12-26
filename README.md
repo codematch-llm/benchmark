@@ -1,4 +1,17 @@
-# Benchmark Component
+# CodeMatch Benchmark
+
+The Benchmark repository is the first component of the CodeMatch project, focusing on the initial steps of the workflow. These steps form the foundation for evaluating and selecting the best-performing Large Language Model (LLM) for the system. Below is the diagram highlighting the first three components of the workflow:
+
+<img src="https://github.com/user-attachments/assets/40727442-eb19-47d3-83cd-fd44c774855c" alt="Workflow" width="300">
+
+### Workflow Steps in Benchmark:
+1. **Finding/Creating Datasets**: The first step involves gathering or creating datasets tailored for evaluating LLMs. These datasets consist of original code snippets and their clones, covering various programming languages and clone types (e.g., exact, renamed, semantic).
+2. **Developing a Benchmark Mechanism**: This step focuses on evaluating multiple LLMs using the created datasets to determine their ability to detect code clones. It involves a detailed scoring mechanism based on similarity metrics.
+3. **Training/Fine-Tuning the Chosen LLM**: Although part of the workflow, this step was executed using prompt engineering rather than custom fine-tuning, leveraging the selected LLM's capabilities without additional training.
+
+Out of these three steps, **only the first two are implemented in this repository**:
+- Step 1: Dataset Creation - additional information can be found in the `data` [folder](https://github.com/codematch-llm/benchmark/tree/main/data) in this repository.
+- Step 2: Benchmark Development - we will delve into this here.
 
 The **benchmark component** of this project is designed to evaluate and identify the best-performing large language model (LLM) for the task of detecting code clones. This benchmark simulates the core functionalities of the final system on a larger scale by:
 
@@ -14,12 +27,6 @@ The primary goal of the benchmark is to evaluate several LLMs and compare their 
 2. **Global Clone Search**: Identifying the closest original code snippets from a database for given clones.
 
 By observing the outputs in the generated CSVs, we can decide which model is best suited for the final production system.
-
-### Connection to the Final System
-
-The benchmark is designed to scale up and simulate the actual production system. While the final system focuses on handling live input code snippets for similarity search, the benchmark tests models extensively using predefined datasets. This large-scale evaluation ensures that the chosen model performs effectively under varying scenarios, providing confidence in its deployment within the system.
-
-The benchmark runs its evaluations repeatedly on large datasets to ensure the model's robustness and accuracy, simulating the kind of workload the production system would handle but with more varied and extensive test cases. The outputs from the benchmark give insights into how the models perform across a wide range of scenarios, ultimately determining the model's suitability for the live system.
 
 ---
 

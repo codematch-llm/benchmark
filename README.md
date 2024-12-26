@@ -2,7 +2,7 @@
 
 The Benchmark repository is the first component of the CodeMatch project, focusing on the initial steps of the workflow. These steps form the foundation for evaluating and selecting the best-performing Large Language Model (LLM) for the system. Below is the diagram highlighting the first three components of the workflow:
 
-<img src="https://github.com/user-attachments/assets/40727442-eb19-47d3-83cd-fd44c774855c" alt="Workflow" width="300">
+
 
 ---
 
@@ -30,6 +30,7 @@ The **benchmark component** of this project is designed to evaluate and identify
 ---
 
 ## Workflow Steps in Benchmark
+<img src="https://github.com/user-attachments/assets/40727442-eb19-47d3-83cd-fd44c774855c" alt="Workflow" width="300">
 
 ### Steps in the Workflow
 

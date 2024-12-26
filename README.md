@@ -97,7 +97,7 @@ The project is designed with modularity in mind, separating core functionalities
 4. **`core/metrics.py`**:
    - Implements the two evaluation methods: direct clone comparison and global clone search, calculating similarity scores and generating results.
 
-5. **`core/myLogger.py`**:
+5. **`core/mylogger.py`**:
    - Configures logging for the benchmark, including custom filters and JSON formatting.
    - Provides setup functions for single and multiprocess workflows.
 

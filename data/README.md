@@ -1,6 +1,6 @@
 ### Evaluation Dataset Creation for Language Model Benchmarking
 
-This README explains the process used to create the final evaluation datasets for benchmarking language models. The datasets consist of two main files:
+This README explains the process used to create the final evaluation datasets for benchmarking language models (Step 1 in the workflow). The datasets consist of two main files:
 1. `original_code_benchmark.csv` – Contains original code snippets from the Rosetta Code dataset enriched with domain and subdomain information.
 2. `test_code_benchmark.csv` – Contains cloned versions of the original code snippets, classified into various clone types and subtypes.
 

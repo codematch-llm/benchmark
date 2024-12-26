@@ -8,7 +8,7 @@ The Benchmark repository is where we start measuring success. It’s all about t
 
 1. [Introduction](#introduction)
 2. [Workflow Steps](#workflow-steps-in-benchmark)
-3. [Step 2 - Workflow](#step2-workflow)
+3. [Step 2 - Workflow](#step-2-workflow)
 4. [Evaluated Models](#evaluated-models)
 5. [Folder Structure](#folder-structure)
 6. [Additional Key Features](#additional-key-features)

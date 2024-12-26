@@ -211,7 +211,6 @@ The project is designed with modularity in mind, separating core functionalities
    docker run --network benchmark-network -it --rm benchmark-image:v1
    ```
 
-Let me know if you want this integrated directly into the README!
 ---
 
 ## Notes for Users

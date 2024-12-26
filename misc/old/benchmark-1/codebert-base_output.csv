@@ -1,6 +1,0 @@
-Test ID,Title,Closest Embedding Index,Similarity Score,Expected Index,Expected Similarity Score
-bt_1,The exact same code,ku8hf,0.9851892,ku8hf,0.9851892
-bt_2,Part of the code snippet,ku8hf,0.98145205,ceo9q,0.9216702
-bt_3,Not in the examples csv (4c5k),ku8hf,0.9312013,None,Not found
-Total passed:,1
-Total failed:,2

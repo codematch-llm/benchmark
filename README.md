@@ -2,21 +2,6 @@
 
 The Benchmark repository is where we start measuring success. It’s all about testing and evaluating Large Language Models (LLMs) to ensure they perform well in detecting code clones. This repository lays the groundwork for the CodeMatch project, helping us identify the best-performing model for the job.
 
----
-
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Workflow Steps](#workflow-steps-in-benchmark)
-3. [Step 2 - Workflow](#step-2---workflow)
-4. [Evaluated Models](#evaluated-models)
-5. [Folder Structure](#folder-structure)
-6. [Additional Key Features](#additional-key-features)
-7. [Modular Design](#modular-design)
-8. [Reproducing the Benchmark](#reproducing-the-benchmark)
-9. [Notes for Users](#notes-for-users)
-
----
 
 ## Introduction
 

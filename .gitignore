@@ -1,3 +1,4 @@
 .idea
 .env
 huggingface_models/
+__pycache__/

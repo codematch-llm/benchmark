@@ -90,7 +90,7 @@ The repository is organized into the following key folders:
 
 
 
-## Additional Key Features
+## 🔥 Additional Key Features
 
 1. **Logging**:
    - Logs are added throughout the project to capture progress, errors, and important metadata.
@@ -128,7 +128,7 @@ The project is designed with modularity in mind, separating core functionalities
    - Coordinates the workflow, integrating functionalities from all modules to execute the benchmark process.
 
 
-## Reproducing the Benchmark
+## 📦📥 Installation and Run
 
 ### Prerequisites
 
@@ -196,7 +196,7 @@ The project is designed with modularity in mind, separating core functionalities
    ```
 
 
-## Notes for Users
+## 📝 Notes for Users
 
 1. **Editing Code**:
    - Clone the repository and edit files locally in your favorite editor (e.g., VS Code).

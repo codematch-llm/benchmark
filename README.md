@@ -53,10 +53,7 @@ These files are stored in the `output` folder, with separate subfolders created 
 **f. Global Clone Search**: In this method, each test code embedding is searched against the entire vector database. This approach assesses the system's ability to retrieve the most similar code snippets globally. Similarity scores and corresponding evaluations are recorded to analyze performance.
 
 
-
-
-
-## 🧠📊 Evaluated Models
+## 🧠 Evaluated Models
 
 The following models have been benchmarked in this project:
 
@@ -68,6 +65,13 @@ The following models have been benchmarked in this project:
 
 to choose the desired model go to `config.py` and uncomment the model name.
 
+## 📏 Main Evaluation Metrics
+- Top 5 Hit Rate (AKA Hit@5/ Top-5 Accuracy) - The percentage of times the original code snippet of the clone appears among the top 5 results retrieved by the system.
+- First Hit Rate (AKA Hit@1/ Top-1 Accuracy) - The percentage of times the original code snippet of the clone is ranked first among the top 5 results retrieved by the system.
+
+## 📊 Some Model Evaluations
+<img src="https://github.com/user-attachments/assets/83f62e44-6dc8-4981-843f-6660adda76bf" alt="Benchmark-full-testset" width="500">
+<img src="https://github.com/user-attachments/assets/b9ac05ec-b623-4a10-8eb4-beded47a986a" alt="Benchmark-t4-different-language" width="500">
 
 
 ## 🗂️ Folder Structure

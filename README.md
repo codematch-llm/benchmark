@@ -3,7 +3,7 @@
 The Benchmark repository is where we start measuring success. It’s all about testing and evaluating Large Language Models (LLMs) to ensure they perform well in detecting code clones. This repository lays the groundwork for the CodeMatch project, helping us identify the best-performing model for the job.
 
 
-## 📖 Introduction
+## ✨ Introduction
 
 The benchmark component is critical for evaluating LLMs on their ability to detect code clones. It replicates the system's key functionalities at scale, ensuring that each model is rigorously tested. The benchmark process involves:
 

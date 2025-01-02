@@ -15,7 +15,7 @@ The benchmark component is critical for evaluating LLMs on their ability to dete
 
 By focusing on these elements, the benchmark helps determine the best model to integrate into the CodeMatch system.
 
----
+
 
 ## Workflow Steps in Benchmark
 <img src="https://github.com/user-attachments/assets/40727442-eb19-47d3-83cd-fd44c774855c" alt="Workflow" width="300">
@@ -29,7 +29,7 @@ Out of these three steps, **only the first two are implemented in this repositor
 - Step 1: Dataset Creation - additional information can be found in the `data` [folder](https://github.com/codematch-llm/benchmark/tree/main/data) in this repository.
 - Step 2: Benchmark Development - we will delve into this here.
 
----
+
 
 ## Step 2 - Workflow
 
@@ -54,7 +54,7 @@ These files are stored in the `output` folder, with separate subfolders created 
 
 
 
----
+
 
 ## Evaluated Models
 
@@ -68,7 +68,7 @@ The following models have been benchmarked in this project:
 
 to choose the desired model go to `config.py` and uncomment the model name.
 
----
+
 
 ## Folder Structure
 
@@ -88,7 +88,7 @@ The repository is organized into the following key folders:
 - **`scripts/`**:
   - Contains scripts for various tasks.
 
----
+
 
 ## Additional Key Features
 
@@ -100,7 +100,7 @@ The repository is organized into the following key folders:
 3. **Local Model Management**:
    - Automatically downloads and caches the selected model locally if not already present, ensuring smooth execution without manual intervention.
 
----
+
 
 ## Modular Design
 
@@ -127,7 +127,6 @@ The project is designed with modularity in mind, separating core functionalities
    - Serves as the entry point for the benchmark.
    - Coordinates the workflow, integrating functionalities from all modules to execute the benchmark process.
 
----
 
 ## Reproducing the Benchmark
 
@@ -196,7 +195,6 @@ The project is designed with modularity in mind, separating core functionalities
    docker run --network benchmark-network -it --rm benchmark-image:v1
    ```
 
----
 
 ## Notes for Users
 

@@ -128,9 +128,9 @@ The project is designed with modularity in mind, separating core functionalities
    - Coordinates the workflow, integrating functionalities from all modules to execute the benchmark process.
 
 
-## 📦📥 Installation and Run
+## 📦🛠️ Installation and Run
 
-### Prerequisites
+### 📥 Prerequisites
 
 #### 1. System Requirements:
 - **Docker**: Installed (if running with Docker).
@@ -142,7 +142,32 @@ The project is designed with modularity in mind, separating core functionalities
 
 ---
 
-### Running Locally
+### 🐳 Running with Docker
+
+1. **Build the Docker Image**:
+   ```bash
+   docker build -t benchmark-image:v1 .
+   ```
+
+2. **Setup and Start Qdrant**:
+   - Pull the Qdrant Docker image:
+     ```bash
+     docker pull qdrant/qdrant
+     ```
+   - Create a Docker network and start Qdrant:
+     ```bash
+     docker network create benchmark-network
+     docker run --network benchmark-network --name qdrant -d -p 6333:6333 -p 6334:6334 qdrant/qdrant
+     ```
+
+3. **Run the Benchmark Container**:
+   ```bash
+   docker run --network benchmark-network -it --rm benchmark-image:v1
+   ```
+   
+---
+
+### 💻 Running Locally
 
 1. **Clone the Repository**:
    ```bash
@@ -172,28 +197,6 @@ The project is designed with modularity in mind, separating core functionalities
 
 ---
 
-### Running with Docker
-
-1. **Build the Docker Image**:
-   ```bash
-   docker build -t benchmark-image:v1 .
-   ```
-
-2. **Setup and Start Qdrant**:
-   - Pull the Qdrant Docker image:
-     ```bash
-     docker pull qdrant/qdrant
-     ```
-   - Create a Docker network and start Qdrant:
-     ```bash
-     docker network create benchmark-network
-     docker run --network benchmark-network --name qdrant -d -p 6333:6333 -p 6334:6334 qdrant/qdrant
-     ```
-
-3. **Run the Benchmark Container**:
-   ```bash
-   docker run --network benchmark-network -it --rm benchmark-image:v1
-   ```
 
 
 ## 📝 Notes for Users

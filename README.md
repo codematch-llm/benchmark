@@ -175,7 +175,7 @@ The project is designed with modularity in mind, separating core functionalities
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/codematch-llm/benchmark.git
    cd benchmark
    ```
 

@@ -69,7 +69,7 @@ to choose the desired model go to `config.py` and uncomment the model name.
 - `Top 5 Hit Rate` (AKA Hit@5/ Top-5 Accuracy) - The percentage of times the original code snippet of the clone appears among the top 5 results retrieved by the system.
 - `First Hit Rate` (AKA Hit@1/ Top-1 Accuracy) - The percentage of times the original code snippet of the clone is ranked first among the top 5 results retrieved by the system.
 
-## 📊 Some Model Evaluations
+## 📊 Some Benchmark Results
 <img src="https://github.com/user-attachments/assets/83f62e44-6dc8-4981-843f-6660adda76bf" alt="Benchmark-full-testset" width="500">
 <img src="https://github.com/user-attachments/assets/b9ac05ec-b623-4a10-8eb4-beded47a986a" alt="Benchmark-t4-different-language" width="500">
 

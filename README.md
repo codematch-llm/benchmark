@@ -17,7 +17,7 @@ By focusing on these elements, the benchmark helps determine the best model to i
 
 
 
-## Workflow Steps in Benchmark
+## ⚙️ Workflow Steps in Benchmark
 <img src="https://github.com/user-attachments/assets/40727442-eb19-47d3-83cd-fd44c774855c" alt="Workflow" width="300">
 <br><br>
 
@@ -56,7 +56,7 @@ These files are stored in the `output` folder, with separate subfolders created 
 
 
 
-## Evaluated Models
+## 🧠📊 Evaluated Models
 
 The following models have been benchmarked in this project:
 
@@ -70,7 +70,7 @@ to choose the desired model go to `config.py` and uncomment the model name.
 
 
 
-## Folder Structure
+## 🗂️ Folder Structure
 
 The repository is organized into the following key folders:
 
@@ -102,7 +102,7 @@ The repository is organized into the following key folders:
 
 
 
-## Modular Design
+## 📐 Modular Design
 
 The project is designed with modularity in mind, separating core functionalities into distinct modules:
 
